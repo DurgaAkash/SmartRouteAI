@@ -1,0 +1,25 @@
+date,route_id,route_name,morning_peak_passengers,afternoon_passengers,evening_peak_passengers,daily_total,avg_occupancy_pct,fuel_consumed_liters,on_time_pct
+2026-10-15,R-101,Thiruvallur - Avadi Express,240,110,265,615,82.4,38.2,94.0
+2026-10-15,R-102,Vel Tech - Pattabiram Connector,380,180,410,970,91.8,24.5,91.5
+2026-10-15,R-103,Morai - Ambattur Industrial Link,210,95,220,525,76.5,29.1,96.0
+2026-10-15,R-104,Thandurai - Poonamallee Shuttle,130,70,145,345,63.2,27.0,89.0
+2026-10-15,R-105,Vellanur - Red Hills Line,110,55,125,290,58.0,18.4,95.5
+2026-10-16,R-101,Thiruvallur - Avadi Express,255,120,280,655,87.2,39.0,92.0
+2026-10-16,R-102,Vel Tech - Pattabiram Connector,405,195,430,1030,96.2,25.8,88.5
+2026-10-16,R-103,Morai - Ambattur Industrial Link,225,100,235,560,81.0,29.6,94.0
+2026-10-16,R-104,Thandurai - Poonamallee Shuttle,140,80,150,370,67.8,27.5,91.0
+2026-10-16,R-105,Vellanur - Red Hills Line,115,60,130,305,61.0,18.8,97.0
+2026-10-17,R-101,Thiruvallur - Avadi Express,230,140,240,610,81.3,37.8,95.0
+2026-10-17,R-102,Vel Tech - Pattabiram Connector,290,160,310,760,71.2,23.0,95.0
+2026-10-17,R-103,Morai - Ambattur Industrial Link,160,85,170,415,60.1,28.0,98.0
+2026-10-18,R-101,Thiruvallur - Avadi Express,180,110,190,480,64.0,36.0,97.5
+2026-10-18,R-102,Vel Tech - Pattabiram Connector,170,90,180,440,41.2,22.0,98.0
+2026-10-19,R-101,Thiruvallur - Avadi Express,260,125,285,670,89.3,39.5,93.0
+2026-10-19,R-102,Vel Tech - Pattabiram Connector,420,210,445,1075,98.6,26.2,87.0
+2026-10-19,R-103,Morai - Ambattur Industrial Link,230,105,240,575,83.3,30.0,93.5
+2026-10-20,R-101,Thiruvallur - Avadi Express,250,118,275,643,85.7,38.8,93.5
+2026-10-20,R-102,Vel Tech - Pattabiram Connector,395,190,425,1010,94.5,25.4,90.0
+2026-10-21,R-101,Thiruvallur - Avadi Express,215,98,230,543,72.4,39.8,85.0
+2026-10-21,R-102,Vel Tech - Pattabiram Connector,340,165,370,875,81.7,25.0,86.0
+2026-10-22,R-101,Thiruvallur - Avadi Express,255,122,282,659,87.8,38.9,94.0
+2026-10-22,R-102,Vel Tech - Pattabiram Connector,410,198,438,1046,97.2,26.0,89.0

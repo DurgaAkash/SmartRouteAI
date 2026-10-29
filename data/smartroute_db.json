@@ -1,0 +1,4169 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "name": "SmartRoute Transport Authority",
+      "email": "admin@smartroute.ai",
+      "phone": "+91 98765 43210",
+      "passwordHash": "$2b$10$aQAskFr3yp4tBR5LyagJ/e293Y3DeTNjFQOgtgh0wN4ljDiBVZqJq",
+      "role": "admin",
+      "createdAt": "2026-10-28T16:42:43.959Z"
+    },
+    {
+      "id": "usr-pass-01",
+      "name": "Rajesh Sharma",
+      "email": "passenger@smartroute.ai",
+      "phone": "+91 98401 23456",
+      "passwordHash": "$2b$10$aQAskFr3yp4tBR5LyagJ/el3BU5JL9jZSvT/k8QMvZUZK3HvSt9t2",
+      "role": "passenger",
+      "createdAt": "2026-10-28T16:42:43.960Z"
+    },
+    {
+      "id": "usr-1793206584897-102",
+      "name": "Akash",
+      "email": "dadidurgaakash@gmail.com",
+      "phone": "9346482410",
+      "passwordHash": "$2b$10$/AE4m6MnGSw6jxPk2irMke/7AD/OLgHnT8YpFUt38SQKUN7XKTVsS",
+      "role": "passenger",
+      "createdAt": "2026-10-28T16:56:24.897Z"
+    }
+  ],
+  "buses": [
+    {
+      "id": "TN-01-SR-101",
+      "regNo": "TN-20-CZ-4401",
+      "model": "Tata Starbus 42-Seater",
+      "capacity": 42,
+      "assignedRouteId": "R-101",
+      "depot": "Avadi Regional Depot",
+      "status": "Active",
+      "driverName": "R. Murugan",
+      "driverPhone": "+91 98412 11223",
+      "currentLat": 13.1378,
+      "currentLng": 80.091112,
+      "lastSpeedKmh": 40,
+      "isSimulatedGps": true,
+      "lastUpdated": "2026-10-28T17:51:50.341Z"
+    },
+    {
+      "id": "TN-01-SR-102",
+      "regNo": "TN-20-CZ-4402",
+      "model": "Ashok Leyland Falcon",
+      "capacity": 52,
+      "assignedRouteId": "R-102",
+      "depot": "Pattabiram Depot",
+      "status": "Active",
+      "driverName": "K. Selvam",
+      "driverPhone": "+91 98412 22334",
+      "currentLat": 13.187424,
+      "currentLng": 80.104244,
+      "lastSpeedKmh": 30,
+      "isSimulatedGps": true,
+      "lastUpdated": "2026-10-28T17:51:50.341Z"
+    },
+    {
+      "id": "TN-01-SR-103",
+      "regNo": "TN-20-CZ-4403",
+      "model": "Eicher Skyline Pro",
+      "capacity": 36,
+      "assignedRouteId": "R-103",
+      "depot": "Ambattur Depot",
+      "status": "Active",
+      "driverName": "V. Anand",
+      "driverPhone": "+91 98412 33445",
+      "currentLat": 13.204182,
+      "currentLng": 80.15098,
+      "lastSpeedKmh": 38,
+      "isSimulatedGps": true,
+      "lastUpdated": "2026-10-28T17:51:50.341Z"
+    },
+    {
+      "id": "TN-01-SR-104",
+      "regNo": "TN-20-CZ-4404",
+      "model": "Tata Marcopolo EV",
+      "capacity": 32,
+      "assignedRouteId": "R-104",
+      "depot": "Poonamallee Depot",
+      "status": "Active",
+      "driverName": "A. Joseph",
+      "driverPhone": "+91 98412 44556",
+      "currentLat": 13.104174,
+      "currentLng": 80.078265,
+      "lastSpeedKmh": 33,
+      "isSimulatedGps": true,
+      "lastUpdated": "2026-10-28T17:51:50.341Z"
+    },
+    {
+      "id": "TN-01-SR-105",
+      "regNo": "TN-20-CZ-4405",
+      "model": "Ashok Leyland Viking",
+      "capacity": 55,
+      "assignedRouteId": "R-105",
+      "depot": "Red Hills Depot",
+      "status": "Active",
+      "driverName": "G. Balaji",
+      "driverPhone": "+91 98412 55667",
+      "currentLat": 13.194515,
+      "currentLng": 80.185299,
+      "lastSpeedKmh": 33,
+      "isSimulatedGps": true,
+      "lastUpdated": "2026-10-28T17:51:50.341Z"
+    }
+  ],
+  "routes": [
+    {
+      "id": "R-101",
+      "name": "Thiruvallur - Avadi Express",
+      "origin": "Thiruvallur Village",
+      "destination": "Avadi Terminal",
+      "distanceKm": 24.5,
+      "avgDurationMins": 52,
+      "operatingType": "Rural Feed",
+      "roadCondition": "Good All-Weather",
+      "fareInr": 25,
+      "stops": [
+        {
+          "stopId": "STP-09",
+          "stopName": "Thiruvallur Collectorate",
+          "lat": 13.1438,
+          "lng": 79.9079,
+          "sequence": 1,
+          "isRural": false
+        },
+        {
+          "stopId": "STP-04",
+          "stopName": "Thandurai Gramam",
+          "lat": 13.1328,
+          "lng": 80.0634,
+          "sequence": 2,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-03",
+          "stopName": "Kollumedu Rural Colony",
+          "lat": 13.1612,
+          "lng": 80.0891,
+          "sequence": 3,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-06",
+          "stopName": "Avadi Bus Terminal",
+          "lat": 13.1185,
+          "lng": 80.1018,
+          "sequence": 4,
+          "isRural": false
+        }
+      ]
+    },
+    {
+      "id": "R-102",
+      "name": "Vel Tech - Pattabiram Connector",
+      "origin": "Vel Tech Junction",
+      "destination": "Pattabiram",
+      "distanceKm": 11.2,
+      "avgDurationMins": 28,
+      "operatingType": "Student & Commuter Feeder",
+      "roadCondition": "Paved",
+      "fareInr": 15,
+      "stops": [
+        {
+          "stopId": "STP-01",
+          "stopName": "Vel Tech Junction",
+          "lat": 13.1834,
+          "lng": 80.1037,
+          "sequence": 1,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-02",
+          "stopName": "Morai Village Center",
+          "lat": 13.1972,
+          "lng": 80.1245,
+          "sequence": 2,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-05",
+          "stopName": "Pattabiram Railway Stop",
+          "lat": 13.1215,
+          "lng": 80.0621,
+          "sequence": 3,
+          "isRural": false
+        }
+      ]
+    },
+    {
+      "id": "R-103",
+      "name": "Morai - Ambattur Industrial Link",
+      "origin": "Morai Rural Colony",
+      "destination": "Ambattur Estate",
+      "distanceKm": 14.8,
+      "avgDurationMins": 36,
+      "operatingType": "Industrial Workforce Link",
+      "roadCondition": "Good",
+      "fareInr": 20,
+      "stops": [
+        {
+          "stopId": "STP-02",
+          "stopName": "Morai Village Center",
+          "lat": 13.1972,
+          "lng": 80.1245,
+          "sequence": 1,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-07",
+          "stopName": "Vellanur Village",
+          "lat": 13.1912,
+          "lng": 80.1582,
+          "sequence": 2,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-08",
+          "stopName": "Ambattur Industrial Hub",
+          "lat": 13.1025,
+          "lng": 80.1654,
+          "sequence": 3,
+          "isRural": false
+        }
+      ]
+    },
+    {
+      "id": "R-104",
+      "name": "Thandurai - Poonamallee Shuttle",
+      "origin": "Thandurai Village",
+      "destination": "Poonamallee",
+      "distanceKm": 16.4,
+      "avgDurationMins": 42,
+      "operatingType": "Rural General",
+      "roadCondition": "Moderate",
+      "fareInr": 22,
+      "stops": [
+        {
+          "stopId": "STP-04",
+          "stopName": "Thandurai Gramam",
+          "lat": 13.1328,
+          "lng": 80.0634,
+          "sequence": 1,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-08",
+          "stopName": "Poonamallee Bypass",
+          "lat": 13.0489,
+          "lng": 80.0844,
+          "sequence": 2,
+          "isRural": false
+        }
+      ]
+    },
+    {
+      "id": "R-105",
+      "name": "Vellanur - Red Hills Line",
+      "origin": "Vellanur Village",
+      "destination": "Red Hills Junction",
+      "distanceKm": 8.9,
+      "avgDurationMins": 22,
+      "operatingType": "Rural Feed",
+      "roadCondition": "Paved",
+      "fareInr": 12,
+      "stops": [
+        {
+          "stopId": "STP-07",
+          "stopName": "Vellanur Village",
+          "lat": 13.1912,
+          "lng": 80.1582,
+          "sequence": 1,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-10",
+          "stopName": "Red Hills Bus Stand",
+          "lat": 13.1983,
+          "lng": 80.1984,
+          "sequence": 2,
+          "isRural": false
+        }
+      ]
+    },
+    {
+      "id": "R-106",
+      "name": "Khambhampadu - Tiruvuru Feeder",
+      "origin": "Khambhampadu",
+      "destination": "Tiruvuru",
+      "distanceKm": 25.4,
+      "avgDurationMins": 48,
+      "operatingType": "APSRTC Rural Feeder",
+      "roadCondition": "Bitumen State Road",
+      "fareInr": 22,
+      "stops": [
+        {
+          "stopId": "STP-KBP-01",
+          "stopName": "Khambhampadu Village",
+          "lat": 17.0784,
+          "lng": 80.6845,
+          "sequence": 1,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-AKD-01",
+          "stopName": "A.Konduru Mandal Junction",
+          "lat": 17.0261,
+          "lng": 80.6483,
+          "sequence": 2,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-TVR-01",
+          "stopName": "Tiruvuru APSRTC Bus Stand",
+          "lat": 17.1132,
+          "lng": 80.6128,
+          "sequence": 3,
+          "isRural": false
+        }
+      ]
+    },
+    {
+      "id": "R-107",
+      "name": "Village A - Town B Rural Corridor",
+      "origin": "Village A",
+      "destination": "Town B",
+      "distanceKm": 18,
+      "avgDurationMins": 35,
+      "operatingType": "Rural Feeder Express",
+      "roadCondition": "All-Weather Paved",
+      "fareInr": 20,
+      "stops": [
+        {
+          "stopId": "STP-VA-01",
+          "stopName": "Village A Panchayat",
+          "lat": 13.15,
+          "lng": 80.05,
+          "sequence": 1,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-TB-01",
+          "stopName": "Town B Central Terminal",
+          "lat": 13.21,
+          "lng": 80.12,
+          "sequence": 2,
+          "isRural": false
+        }
+      ]
+    },
+    {
+      "id": "R-108",
+      "name": "Village C - Town D Rural Valley Line",
+      "origin": "Village C",
+      "destination": "Town D",
+      "distanceKm": 22,
+      "avgDurationMins": 42,
+      "operatingType": "Rural Feeder",
+      "roadCondition": "All-Weather Bitumen",
+      "fareInr": 24,
+      "stops": [
+        {
+          "stopId": "STP-VC-01",
+          "stopName": "Village C Hamlet",
+          "lat": 13.22,
+          "lng": 80.02,
+          "sequence": 1,
+          "isRural": true
+        },
+        {
+          "stopId": "STP-TD-01",
+          "stopName": "Town D Market",
+          "lat": 13.29,
+          "lng": 80.09,
+          "sequence": 2,
+          "isRural": false
+        }
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "id": "SCH-101",
+      "routeId": "R-101",
+      "routeName": "Thiruvallur - Avadi Express",
+      "busId": "TN-01-SR-101",
+      "departureTime": "07:15",
+      "arrivalTime": "08:07",
+      "origin": "Thiruvallur Village",
+      "destination": "Avadi Terminal",
+      "frequencyMins": 30,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "Transport Commissioner",
+      "approvedAt": "2026-10-27T16:42:43.960Z"
+    },
+    {
+      "id": "SCH-102",
+      "routeId": "R-102",
+      "routeName": "Vel Tech - Pattabiram Connector",
+      "busId": "TN-01-SR-102",
+      "departureTime": "07:45",
+      "arrivalTime": "08:13",
+      "origin": "Vel Tech Junction",
+      "destination": "Pattabiram",
+      "frequencyMins": 20,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "Transport Commissioner",
+      "approvedAt": "2026-10-27T16:42:43.960Z"
+    },
+    {
+      "id": "SCH-103",
+      "routeId": "R-102",
+      "routeName": "Vel Tech - Pattabiram Connector",
+      "busId": "TN-01-SR-102",
+      "departureTime": "08:30",
+      "arrivalTime": "08:58",
+      "origin": "Vel Tech Junction",
+      "destination": "Pattabiram",
+      "frequencyMins": 20,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "Transport Commissioner",
+      "approvedAt": "2026-10-27T16:42:43.960Z"
+    },
+    {
+      "id": "SCH-104",
+      "routeId": "R-103",
+      "routeName": "Morai - Ambattur Industrial Link",
+      "busId": "TN-01-SR-103",
+      "departureTime": "08:00",
+      "arrivalTime": "08:36",
+      "origin": "Morai Rural Colony",
+      "destination": "Ambattur Estate",
+      "frequencyMins": 25,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "Transport Commissioner",
+      "approvedAt": "2026-10-27T16:42:43.960Z"
+    },
+    {
+      "id": "SCH-105",
+      "routeId": "R-104",
+      "routeName": "Thandurai - Poonamallee Shuttle",
+      "busId": "TN-01-SR-104",
+      "departureTime": "09:00",
+      "arrivalTime": "09:42",
+      "origin": "Thandurai Village",
+      "destination": "Poonamallee",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "All Days"
+      ],
+      "status": "PROPOSED"
+    },
+    {
+      "id": "SCH-PUB-5502-31",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-101",
+      "departureTime": "07:00",
+      "arrivalTime": "07:35",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:02:25.502Z"
+    },
+    {
+      "id": "SCH-PUB-5502-63",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-102",
+      "departureTime": "07:45",
+      "arrivalTime": "08:20",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:02:25.502Z"
+    },
+    {
+      "id": "SCH-PUB-5502-30",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-103",
+      "departureTime": "08:30",
+      "arrivalTime": "09:05",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:02:25.502Z"
+    },
+    {
+      "id": "SCH-PUB-5502-92",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-104",
+      "departureTime": "09:15",
+      "arrivalTime": "09:50",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:02:25.502Z"
+    },
+    {
+      "id": "SCH-PUB-5725-85",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-101",
+      "departureTime": "07:00",
+      "arrivalTime": "07:35",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:24:45.725Z"
+    },
+    {
+      "id": "SCH-PUB-5725-52",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-102",
+      "departureTime": "07:45",
+      "arrivalTime": "08:20",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:24:45.725Z"
+    },
+    {
+      "id": "SCH-PUB-5725-29",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-103",
+      "departureTime": "08:30",
+      "arrivalTime": "09:05",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:24:45.725Z"
+    },
+    {
+      "id": "SCH-PUB-5725-93",
+      "routeId": "R-102",
+      "routeName": "Feeder: Vel Tech Junction ➔ Kollumedu Rural Colony",
+      "busId": "TN-01-SR-104",
+      "departureTime": "09:15",
+      "arrivalTime": "09:50",
+      "origin": "Vel Tech Junction",
+      "destination": "Kollumedu Rural Colony",
+      "frequencyMins": 45,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:24:45.725Z"
+    },
+    {
+      "id": "SCH-PUB-OPT-TRIP-OPT-3583-1",
+      "routeId": "R-106",
+      "routeName": "Khambhampadu - Tiruvuru Feeder",
+      "busId": "TN-01-SR-104",
+      "departureTime": "07:00",
+      "arrivalTime": "07:48",
+      "origin": "Khambhampadu",
+      "destination": "Tiruvuru",
+      "frequencyMins": 35,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:51:43.589Z"
+    },
+    {
+      "id": "SCH-PUB-OPT-TRIP-OPT-3583-2",
+      "routeId": "R-106",
+      "routeName": "Khambhampadu - Tiruvuru Feeder",
+      "busId": "TN-01-SR-104",
+      "departureTime": "17:15",
+      "arrivalTime": "18:03",
+      "origin": "Khambhampadu",
+      "destination": "Tiruvuru",
+      "frequencyMins": 35,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:51:43.589Z"
+    },
+    {
+      "id": "SCH-PUB-OPT-TRIP-OPT-3583-3",
+      "routeId": "R-102",
+      "routeName": "Vel Tech - Pattabiram Connector",
+      "busId": "TN-01-SR-103",
+      "departureTime": "08:00",
+      "arrivalTime": "08:28",
+      "origin": "Vel Tech Junction",
+      "destination": "Pattabiram",
+      "frequencyMins": 35,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:51:43.589Z"
+    },
+    {
+      "id": "SCH-PUB-OPT-TRIP-OPT-3583-4",
+      "routeId": "R-107",
+      "routeName": "Village A - Town B Rural Corridor",
+      "busId": "TN-01-SR-104",
+      "departureTime": "08:30",
+      "arrivalTime": "09:05",
+      "origin": "Village A",
+      "destination": "Town B",
+      "frequencyMins": 35,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:51:43.589Z"
+    },
+    {
+      "id": "SCH-PUB-OPT-TRIP-OPT-3583-5",
+      "routeId": "R-103",
+      "routeName": "Morai - Ambattur Industrial Link",
+      "busId": "TN-01-SR-103",
+      "departureTime": "09:00",
+      "arrivalTime": "09:36",
+      "origin": "Morai Rural Colony",
+      "destination": "Ambattur Estate",
+      "frequencyMins": 35,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:51:43.589Z"
+    },
+    {
+      "id": "SCH-PUB-OPT-TRIP-OPT-3583-6",
+      "routeId": "R-101",
+      "routeName": "Thiruvallur - Avadi Express",
+      "busId": "TN-01-SR-101",
+      "departureTime": "07:00",
+      "arrivalTime": "07:52",
+      "origin": "Thiruvallur Village",
+      "destination": "Avadi Terminal",
+      "frequencyMins": 35,
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "status": "PUBLISHED",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:51:43.589Z"
+    }
+  ],
+  "checkIns": [
+    {
+      "id": "CHK-901",
+      "userId": "usr-pass-01",
+      "userName": "Rajesh Sharma",
+      "userPhone": "+91 98401 23456",
+      "origin": "Vel Tech Junction",
+      "destination": "Pattabiram",
+      "routeId": "R-102",
+      "routeName": "Vel Tech - Pattabiram Connector",
+      "travelDate": "2026-10-28",
+      "travelTime": "08:30",
+      "passengerCount": 2,
+      "selectedBusId": "TN-01-SR-102",
+      "status": "TRAVEL_INTENTION",
+      "submittedAt": "2026-10-28T14:42:43.960Z"
+    },
+    {
+      "id": "CHK-902",
+      "userId": "usr-pass-01",
+      "userName": "Rajesh Sharma",
+      "userPhone": "+91 98401 23456",
+      "origin": "Thiruvallur Village",
+      "destination": "Avadi Terminal",
+      "routeId": "R-101",
+      "routeName": "Thiruvallur - Avadi Express",
+      "travelDate": "2026-10-27",
+      "travelTime": "07:15",
+      "passengerCount": 1,
+      "selectedBusId": "TN-01-SR-101",
+      "status": "VERIFIED_BOARDING",
+      "submittedAt": "2026-10-27T16:42:43.960Z"
+    },
+    {
+      "id": "CHK-903",
+      "userId": "usr-demo-02",
+      "userName": "Meenakshi Sundaram",
+      "userPhone": "+91 94441 55667",
+      "origin": "Morai Rural Colony",
+      "destination": "Ambattur Estate",
+      "routeId": "R-103",
+      "routeName": "Morai - Ambattur Industrial Link",
+      "travelDate": "2026-10-28",
+      "travelTime": "08:00",
+      "passengerCount": 3,
+      "selectedBusId": "TN-01-SR-103",
+      "status": "TRAVEL_INTENTION",
+      "submittedAt": "2026-10-28T13:42:43.960Z"
+    },
+    {
+      "id": "CHK-0036",
+      "userId": "usr-1793206584897-102",
+      "userName": "Akash",
+      "userPhone": "+91 90000 00000",
+      "origin": "Vel Tech Junction",
+      "destination": "avadi",
+      "routeId": "R-101",
+      "routeName": "Thiruvallur - Avadi Express",
+      "travelDate": "2026-10-28",
+      "travelTime": "08:30",
+      "passengerCount": 1,
+      "selectedBusId": "TN-01-SR-101",
+      "status": "TRAVEL_INTENTION",
+      "submittedAt": "2026-10-28T17:00:20.036Z"
+    },
+    {
+      "id": "CHK-1237",
+      "userId": "usr-1793206584897-102",
+      "userName": "Akash",
+      "userPhone": "+91 90000 00000",
+      "origin": "Vel Tech Junction",
+      "destination": "Pattabiram",
+      "routeId": "R-102",
+      "routeName": "Vel Tech - Pattabiram Connector",
+      "travelDate": "2026-10-28",
+      "travelTime": "08:30",
+      "passengerCount": 1,
+      "selectedBusId": "TN-01-SR-102",
+      "status": "TRAVEL_INTENTION",
+      "submittedAt": "2026-10-28T17:23:31.237Z"
+    },
+    {
+      "id": "CHK-8721",
+      "userId": "usr-1793206584897-102",
+      "userName": "Akash",
+      "userPhone": "+91 90000 00000",
+      "origin": "koduru",
+      "destination": "tiruvuru",
+      "routeId": "",
+      "routeName": "koduru to tiruvuru",
+      "travelDate": "2026-10-28",
+      "travelTime": "08:30",
+      "passengerCount": 1,
+      "selectedBusId": "",
+      "status": "TRAVEL_INTENTION",
+      "submittedAt": "2026-10-28T17:30:58.721Z"
+    },
+    {
+      "id": "CHK-5669",
+      "userId": "usr-1793206584897-102",
+      "userName": "Akash",
+      "userPhone": "+91 90000 00000",
+      "origin": "Vel Tech Junction",
+      "destination": "Pattabiram",
+      "routeId": "R-102",
+      "routeName": "Vel Tech - Pattabiram Connector",
+      "travelDate": "2026-10-28",
+      "travelTime": "08:30",
+      "passengerCount": 14,
+      "selectedBusId": "TN-01-SR-102",
+      "status": "TRAVEL_INTENTION",
+      "submittedAt": "2026-10-28T17:36:45.669Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "PLAN-08328",
+      "title": "Optimized Rural Schedule for Vel Tech Junction - Morai Village Center - Kollumedu Rural Colony",
+      "requestText": "Plan bus services for koduru,tiruvuru,tomorrow morning from 7 AM to 10 AM using 4 available buses",
+      "status": "PENDING_APPROVAL",
+      "predictedDemand": 260,
+      "totalFleetCapacity": 162,
+      "targetVillages": [
+        "Vel Tech Junction",
+        "Morai Village Center",
+        "Kollumedu Rural Colony"
+      ],
+      "totalDistanceKm": 21.8,
+      "allocatedBuses": [
+        "TN-01-SR-101",
+        "TN-01-SR-102",
+        "TN-01-SR-103",
+        "TN-01-SR-104"
+      ],
+      "proposedTrips": [
+        {
+          "tripId": "TRIP-AGT-100",
+          "busId": "TN-01-SR-101",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:00",
+          "arrivalTime": "07:35",
+          "allocatedSeats": 42
+        },
+        {
+          "tripId": "TRIP-AGT-101",
+          "busId": "TN-01-SR-102",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:45",
+          "arrivalTime": "08:20",
+          "allocatedSeats": 52
+        },
+        {
+          "tripId": "TRIP-AGT-102",
+          "busId": "TN-01-SR-103",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "08:30",
+          "arrivalTime": "09:05",
+          "allocatedSeats": 36
+        },
+        {
+          "tripId": "TRIP-AGT-103",
+          "busId": "TN-01-SR-104",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "09:15",
+          "arrivalTime": "09:50",
+          "allocatedSeats": 32
+        }
+      ],
+      "constraintCheck": {
+        "passed": true,
+        "capacityAdequate": true,
+        "driverHoursCompliant": true,
+        "warnings": [
+          "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+        ]
+      },
+      "executionSteps": [
+        {
+          "step": 1,
+          "tool": "retrieve_demand_data",
+          "input": {
+            "targetVillages": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "timeWindow": "7:00 AM - 10:00 AM"
+          },
+          "output": {
+            "totalRecordsQueried": 45,
+            "rawDemandCount": 154,
+            "primaryCorridor": "Vel Tech Junction to Avadi Hub"
+          },
+          "reasoning": "Queried passenger check-in database and historical ticket sales for Vel Tech Junction, Morai Village Center, Kollumedu Rural Colony.",
+          "timestamp": "2026-10-28T17:31:48.328Z"
+        },
+        {
+          "step": 2,
+          "tool": "ai_demand_prediction",
+          "input": {
+            "baseDemand": 154,
+            "isMarketDay": true,
+            "model": "Random Forest Regressor"
+          },
+          "output": {
+            "predictedPassengers": 260,
+            "confidence": 0.92,
+            "peakType": "Morning Commuter & Agricultural Haat"
+          },
+          "reasoning": "AI Random Forest model factored in Tuesday market day shandy volume, forecasting a peak surge of 260 passengers.",
+          "timestamp": "2026-10-28T17:31:48.328Z"
+        },
+        {
+          "step": 3,
+          "tool": "check_bus_availability",
+          "input": {
+            "requestedBuses": 4
+          },
+          "output": {
+            "allocatedBuses": [
+              {
+                "id": "TN-01-SR-101",
+                "regNo": "TN-20-CZ-4401",
+                "capacity": 42,
+                "depot": "Avadi Regional Depot"
+              },
+              {
+                "id": "TN-01-SR-102",
+                "regNo": "TN-20-CZ-4402",
+                "capacity": 52,
+                "depot": "Pattabiram Depot"
+              },
+              {
+                "id": "TN-01-SR-103",
+                "regNo": "TN-20-CZ-4403",
+                "capacity": 36,
+                "depot": "Ambattur Depot"
+              },
+              {
+                "id": "TN-01-SR-104",
+                "regNo": "TN-20-CZ-4404",
+                "capacity": 32,
+                "depot": "Poonamallee Depot"
+              }
+            ],
+            "totalFleetCapacity": 162
+          },
+          "reasoning": "Allocated 4 verified road-worthy buses with combined single-trip capacity of 162 seats.",
+          "timestamp": "2026-10-28T17:31:48.328Z"
+        },
+        {
+          "step": 4,
+          "tool": "route_optimizer",
+          "input": {
+            "origin": "Vel Tech Junction",
+            "waypoints": [
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "destination": "Avadi Bus Terminal"
+          },
+          "output": {
+            "optimalStopSequence": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony",
+              "Avadi Bus Terminal"
+            ],
+            "distanceKm": 21.8,
+            "bypassUnpavedChokepoints": true
+          },
+          "reasoning": "Engineered circular feeder loop servicing rural schools and primary health clinics with 19% fuel conservation.",
+          "timestamp": "2026-10-28T17:31:48.328Z"
+        },
+        {
+          "step": 5,
+          "tool": "schedule_optimization",
+          "input": {
+            "fleetSize": 4,
+            "headwayMinutes": 45
+          },
+          "output": {
+            "trips": [
+              {
+                "tripId": "TRIP-AGT-100",
+                "busId": "TN-01-SR-101",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:00",
+                "arrivalTime": "07:35",
+                "allocatedSeats": 42
+              },
+              {
+                "tripId": "TRIP-AGT-101",
+                "busId": "TN-01-SR-102",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:45",
+                "arrivalTime": "08:20",
+                "allocatedSeats": 52
+              },
+              {
+                "tripId": "TRIP-AGT-102",
+                "busId": "TN-01-SR-103",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "08:30",
+                "arrivalTime": "09:05",
+                "allocatedSeats": 36
+              },
+              {
+                "tripId": "TRIP-AGT-103",
+                "busId": "TN-01-SR-104",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "09:15",
+                "arrivalTime": "09:50",
+                "allocatedSeats": 32
+              }
+            ]
+          },
+          "reasoning": "Synchronized 45-minute headway providing regular frequencies without driver fatigue.",
+          "timestamp": "2026-10-28T17:31:48.328Z"
+        },
+        {
+          "step": 6,
+          "tool": "validate_constraints",
+          "input": {
+            "demand": 260,
+            "fleetCapacity": 162
+          },
+          "output": {
+            "passed": true,
+            "capacityAdequate": true,
+            "driverHoursCompliant": true,
+            "warnings": [
+              "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+            ]
+          },
+          "reasoning": "Operational constraint validation passed. Multi-trip rotation satisfies 100% of rural commuters.",
+          "timestamp": "2026-10-28T17:31:48.328Z"
+        }
+      ],
+      "createdAt": "2026-10-28T17:31:48.329Z"
+    },
+    {
+      "id": "PLAN-72669",
+      "title": "Optimized Rural Schedule for Vel Tech Junction - Morai Village Center - Kollumedu Rural Colony",
+      "requestText": "Plan bus services for Vel Tech Junction, Morai Village Center, and Kollumedu tomorrow morning from 7 AM to 10 AM using 4 available buses",
+      "status": "APPROVED",
+      "predictedDemand": 260,
+      "totalFleetCapacity": 162,
+      "targetVillages": [
+        "Vel Tech Junction",
+        "Morai Village Center",
+        "Kollumedu Rural Colony"
+      ],
+      "totalDistanceKm": 21.8,
+      "allocatedBuses": [
+        "TN-01-SR-101",
+        "TN-01-SR-102",
+        "TN-01-SR-103",
+        "TN-01-SR-104"
+      ],
+      "proposedTrips": [
+        {
+          "tripId": "TRIP-AGT-100",
+          "busId": "TN-01-SR-101",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:00",
+          "arrivalTime": "07:35",
+          "allocatedSeats": 42
+        },
+        {
+          "tripId": "TRIP-AGT-101",
+          "busId": "TN-01-SR-102",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:45",
+          "arrivalTime": "08:20",
+          "allocatedSeats": 52
+        },
+        {
+          "tripId": "TRIP-AGT-102",
+          "busId": "TN-01-SR-103",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "08:30",
+          "arrivalTime": "09:05",
+          "allocatedSeats": 36
+        },
+        {
+          "tripId": "TRIP-AGT-103",
+          "busId": "TN-01-SR-104",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "09:15",
+          "arrivalTime": "09:50",
+          "allocatedSeats": 32
+        }
+      ],
+      "constraintCheck": {
+        "passed": true,
+        "capacityAdequate": true,
+        "driverHoursCompliant": true,
+        "warnings": [
+          "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+        ]
+      },
+      "executionSteps": [
+        {
+          "step": 1,
+          "tool": "retrieve_demand_data",
+          "input": {
+            "targetVillages": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "timeWindow": "7:00 AM - 10:00 AM"
+          },
+          "output": {
+            "totalRecordsQueried": 45,
+            "rawDemandCount": 154,
+            "primaryCorridor": "Vel Tech Junction to Avadi Hub"
+          },
+          "reasoning": "Queried passenger check-in database and historical ticket sales for Vel Tech Junction, Morai Village Center, Kollumedu Rural Colony.",
+          "timestamp": "2026-10-28T17:24:32.669Z"
+        },
+        {
+          "step": 2,
+          "tool": "ai_demand_prediction",
+          "input": {
+            "baseDemand": 154,
+            "isMarketDay": true,
+            "model": "Random Forest Regressor"
+          },
+          "output": {
+            "predictedPassengers": 260,
+            "confidence": 0.92,
+            "peakType": "Morning Commuter & Agricultural Haat"
+          },
+          "reasoning": "AI Random Forest model factored in Tuesday market day shandy volume, forecasting a peak surge of 260 passengers.",
+          "timestamp": "2026-10-28T17:24:32.669Z"
+        },
+        {
+          "step": 3,
+          "tool": "check_bus_availability",
+          "input": {
+            "requestedBuses": 4
+          },
+          "output": {
+            "allocatedBuses": [
+              {
+                "id": "TN-01-SR-101",
+                "regNo": "TN-20-CZ-4401",
+                "capacity": 42,
+                "depot": "Avadi Regional Depot"
+              },
+              {
+                "id": "TN-01-SR-102",
+                "regNo": "TN-20-CZ-4402",
+                "capacity": 52,
+                "depot": "Pattabiram Depot"
+              },
+              {
+                "id": "TN-01-SR-103",
+                "regNo": "TN-20-CZ-4403",
+                "capacity": 36,
+                "depot": "Ambattur Depot"
+              },
+              {
+                "id": "TN-01-SR-104",
+                "regNo": "TN-20-CZ-4404",
+                "capacity": 32,
+                "depot": "Poonamallee Depot"
+              }
+            ],
+            "totalFleetCapacity": 162
+          },
+          "reasoning": "Allocated 4 verified road-worthy buses with combined single-trip capacity of 162 seats.",
+          "timestamp": "2026-10-28T17:24:32.669Z"
+        },
+        {
+          "step": 4,
+          "tool": "route_optimizer",
+          "input": {
+            "origin": "Vel Tech Junction",
+            "waypoints": [
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "destination": "Avadi Bus Terminal"
+          },
+          "output": {
+            "optimalStopSequence": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony",
+              "Avadi Bus Terminal"
+            ],
+            "distanceKm": 21.8,
+            "bypassUnpavedChokepoints": true
+          },
+          "reasoning": "Engineered circular feeder loop servicing rural schools and primary health clinics with 19% fuel conservation.",
+          "timestamp": "2026-10-28T17:24:32.669Z"
+        },
+        {
+          "step": 5,
+          "tool": "schedule_optimization",
+          "input": {
+            "fleetSize": 4,
+            "headwayMinutes": 45
+          },
+          "output": {
+            "trips": [
+              {
+                "tripId": "TRIP-AGT-100",
+                "busId": "TN-01-SR-101",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:00",
+                "arrivalTime": "07:35",
+                "allocatedSeats": 42
+              },
+              {
+                "tripId": "TRIP-AGT-101",
+                "busId": "TN-01-SR-102",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:45",
+                "arrivalTime": "08:20",
+                "allocatedSeats": 52
+              },
+              {
+                "tripId": "TRIP-AGT-102",
+                "busId": "TN-01-SR-103",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "08:30",
+                "arrivalTime": "09:05",
+                "allocatedSeats": 36
+              },
+              {
+                "tripId": "TRIP-AGT-103",
+                "busId": "TN-01-SR-104",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "09:15",
+                "arrivalTime": "09:50",
+                "allocatedSeats": 32
+              }
+            ]
+          },
+          "reasoning": "Synchronized 45-minute headway providing regular frequencies without driver fatigue.",
+          "timestamp": "2026-10-28T17:24:32.669Z"
+        },
+        {
+          "step": 6,
+          "tool": "validate_constraints",
+          "input": {
+            "demand": 260,
+            "fleetCapacity": 162
+          },
+          "output": {
+            "passed": true,
+            "capacityAdequate": true,
+            "driverHoursCompliant": true,
+            "warnings": [
+              "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+            ]
+          },
+          "reasoning": "Operational constraint validation passed. Multi-trip rotation satisfies 100% of rural commuters.",
+          "timestamp": "2026-10-28T17:24:32.669Z"
+        }
+      ],
+      "createdAt": "2026-10-28T17:24:32.669Z",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:24:45.725Z",
+      "adminNotes": "Approved by Transportation Authority"
+    },
+    {
+      "id": "PLAN-53470",
+      "title": "Optimized Rural Schedule for Vel Tech Junction - Morai Village Center - Kollumedu Rural Colony",
+      "requestText": "Plan bus services for Vel Tech Junction, Morai Village Center, and Kollumedu tomorrow morning from 7 AM to 10 AM using 4 available buses",
+      "status": "PENDING_APPROVAL",
+      "predictedDemand": 260,
+      "totalFleetCapacity": 162,
+      "targetVillages": [
+        "Vel Tech Junction",
+        "Morai Village Center",
+        "Kollumedu Rural Colony"
+      ],
+      "totalDistanceKm": 21.8,
+      "allocatedBuses": [
+        "TN-01-SR-101",
+        "TN-01-SR-102",
+        "TN-01-SR-103",
+        "TN-01-SR-104"
+      ],
+      "proposedTrips": [
+        {
+          "tripId": "TRIP-AGT-100",
+          "busId": "TN-01-SR-101",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:00",
+          "arrivalTime": "07:35",
+          "allocatedSeats": 42
+        },
+        {
+          "tripId": "TRIP-AGT-101",
+          "busId": "TN-01-SR-102",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:45",
+          "arrivalTime": "08:20",
+          "allocatedSeats": 52
+        },
+        {
+          "tripId": "TRIP-AGT-102",
+          "busId": "TN-01-SR-103",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "08:30",
+          "arrivalTime": "09:05",
+          "allocatedSeats": 36
+        },
+        {
+          "tripId": "TRIP-AGT-103",
+          "busId": "TN-01-SR-104",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "09:15",
+          "arrivalTime": "09:50",
+          "allocatedSeats": 32
+        }
+      ],
+      "constraintCheck": {
+        "passed": true,
+        "capacityAdequate": true,
+        "driverHoursCompliant": true,
+        "warnings": [
+          "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+        ]
+      },
+      "executionSteps": [
+        {
+          "step": 1,
+          "tool": "retrieve_demand_data",
+          "input": {
+            "targetVillages": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "timeWindow": "7:00 AM - 10:00 AM"
+          },
+          "output": {
+            "totalRecordsQueried": 45,
+            "rawDemandCount": 154,
+            "primaryCorridor": "Vel Tech Junction to Avadi Hub"
+          },
+          "reasoning": "Queried passenger check-in database and historical ticket sales for Vel Tech Junction, Morai Village Center, Kollumedu Rural Colony.",
+          "timestamp": "2026-10-28T17:19:13.470Z"
+        },
+        {
+          "step": 2,
+          "tool": "ai_demand_prediction",
+          "input": {
+            "baseDemand": 154,
+            "isMarketDay": true,
+            "model": "Random Forest Regressor"
+          },
+          "output": {
+            "predictedPassengers": 260,
+            "confidence": 0.92,
+            "peakType": "Morning Commuter & Agricultural Haat"
+          },
+          "reasoning": "AI Random Forest model factored in Tuesday market day shandy volume, forecasting a peak surge of 260 passengers.",
+          "timestamp": "2026-10-28T17:19:13.470Z"
+        },
+        {
+          "step": 3,
+          "tool": "check_bus_availability",
+          "input": {
+            "requestedBuses": 4
+          },
+          "output": {
+            "allocatedBuses": [
+              {
+                "id": "TN-01-SR-101",
+                "regNo": "TN-20-CZ-4401",
+                "capacity": 42,
+                "depot": "Avadi Regional Depot"
+              },
+              {
+                "id": "TN-01-SR-102",
+                "regNo": "TN-20-CZ-4402",
+                "capacity": 52,
+                "depot": "Pattabiram Depot"
+              },
+              {
+                "id": "TN-01-SR-103",
+                "regNo": "TN-20-CZ-4403",
+                "capacity": 36,
+                "depot": "Ambattur Depot"
+              },
+              {
+                "id": "TN-01-SR-104",
+                "regNo": "TN-20-CZ-4404",
+                "capacity": 32,
+                "depot": "Poonamallee Depot"
+              }
+            ],
+            "totalFleetCapacity": 162
+          },
+          "reasoning": "Allocated 4 verified road-worthy buses with combined single-trip capacity of 162 seats.",
+          "timestamp": "2026-10-28T17:19:13.470Z"
+        },
+        {
+          "step": 4,
+          "tool": "route_optimizer",
+          "input": {
+            "origin": "Vel Tech Junction",
+            "waypoints": [
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "destination": "Avadi Bus Terminal"
+          },
+          "output": {
+            "optimalStopSequence": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony",
+              "Avadi Bus Terminal"
+            ],
+            "distanceKm": 21.8,
+            "bypassUnpavedChokepoints": true
+          },
+          "reasoning": "Engineered circular feeder loop servicing rural schools and primary health clinics with 19% fuel conservation.",
+          "timestamp": "2026-10-28T17:19:13.470Z"
+        },
+        {
+          "step": 5,
+          "tool": "schedule_optimization",
+          "input": {
+            "fleetSize": 4,
+            "headwayMinutes": 45
+          },
+          "output": {
+            "trips": [
+              {
+                "tripId": "TRIP-AGT-100",
+                "busId": "TN-01-SR-101",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:00",
+                "arrivalTime": "07:35",
+                "allocatedSeats": 42
+              },
+              {
+                "tripId": "TRIP-AGT-101",
+                "busId": "TN-01-SR-102",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:45",
+                "arrivalTime": "08:20",
+                "allocatedSeats": 52
+              },
+              {
+                "tripId": "TRIP-AGT-102",
+                "busId": "TN-01-SR-103",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "08:30",
+                "arrivalTime": "09:05",
+                "allocatedSeats": 36
+              },
+              {
+                "tripId": "TRIP-AGT-103",
+                "busId": "TN-01-SR-104",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "09:15",
+                "arrivalTime": "09:50",
+                "allocatedSeats": 32
+              }
+            ]
+          },
+          "reasoning": "Synchronized 45-minute headway providing regular frequencies without driver fatigue.",
+          "timestamp": "2026-10-28T17:19:13.470Z"
+        },
+        {
+          "step": 6,
+          "tool": "validate_constraints",
+          "input": {
+            "demand": 260,
+            "fleetCapacity": 162
+          },
+          "output": {
+            "passed": true,
+            "capacityAdequate": true,
+            "driverHoursCompliant": true,
+            "warnings": [
+              "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+            ]
+          },
+          "reasoning": "Operational constraint validation passed. Multi-trip rotation satisfies 100% of rural commuters.",
+          "timestamp": "2026-10-28T17:19:13.470Z"
+        }
+      ],
+      "createdAt": "2026-10-28T17:19:13.470Z"
+    },
+    {
+      "id": "PLAN-36887",
+      "title": "Optimized Rural Schedule for Vel Tech Junction - Morai Village Center - Kollumedu Rural Colony",
+      "requestText": "Plan bus services for Vel Tech Junction, Morai Village Center, and Kollumedu tomorrow morning from 7 AM to 10 AM using 4 available buses",
+      "status": "APPROVED",
+      "predictedDemand": 260,
+      "totalFleetCapacity": 162,
+      "targetVillages": [
+        "Vel Tech Junction",
+        "Morai Village Center",
+        "Kollumedu Rural Colony"
+      ],
+      "totalDistanceKm": 21.8,
+      "allocatedBuses": [
+        "TN-01-SR-101",
+        "TN-01-SR-102",
+        "TN-01-SR-103",
+        "TN-01-SR-104"
+      ],
+      "proposedTrips": [
+        {
+          "tripId": "TRIP-AGT-100",
+          "busId": "TN-01-SR-101",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:00",
+          "arrivalTime": "07:35",
+          "allocatedSeats": 42
+        },
+        {
+          "tripId": "TRIP-AGT-101",
+          "busId": "TN-01-SR-102",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "07:45",
+          "arrivalTime": "08:20",
+          "allocatedSeats": 52
+        },
+        {
+          "tripId": "TRIP-AGT-102",
+          "busId": "TN-01-SR-103",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "08:30",
+          "arrivalTime": "09:05",
+          "allocatedSeats": 36
+        },
+        {
+          "tripId": "TRIP-AGT-103",
+          "busId": "TN-01-SR-104",
+          "origin": "Vel Tech Junction",
+          "destination": "Kollumedu Rural Colony",
+          "departureTime": "09:15",
+          "arrivalTime": "09:50",
+          "allocatedSeats": 32
+        }
+      ],
+      "constraintCheck": {
+        "passed": true,
+        "capacityAdequate": true,
+        "driverHoursCompliant": true,
+        "warnings": [
+          "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+        ]
+      },
+      "executionSteps": [
+        {
+          "step": 1,
+          "tool": "retrieve_demand_data",
+          "input": {
+            "targetVillages": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "timeWindow": "7:00 AM - 10:00 AM"
+          },
+          "output": {
+            "totalRecordsQueried": 45,
+            "rawDemandCount": 154,
+            "primaryCorridor": "Vel Tech Junction to Avadi Hub"
+          },
+          "reasoning": "Queried passenger check-in database and historical ticket sales for Vel Tech Junction, Morai Village Center, Kollumedu Rural Colony.",
+          "timestamp": "2026-10-28T17:02:16.887Z"
+        },
+        {
+          "step": 2,
+          "tool": "ai_demand_prediction",
+          "input": {
+            "baseDemand": 154,
+            "isMarketDay": true,
+            "model": "Random Forest Regressor"
+          },
+          "output": {
+            "predictedPassengers": 260,
+            "confidence": 0.92,
+            "peakType": "Morning Commuter & Agricultural Haat"
+          },
+          "reasoning": "AI Random Forest model factored in Tuesday market day shandy volume, forecasting a peak surge of 260 passengers.",
+          "timestamp": "2026-10-28T17:02:16.887Z"
+        },
+        {
+          "step": 3,
+          "tool": "check_bus_availability",
+          "input": {
+            "requestedBuses": 4
+          },
+          "output": {
+            "allocatedBuses": [
+              {
+                "id": "TN-01-SR-101",
+                "regNo": "TN-20-CZ-4401",
+                "capacity": 42,
+                "depot": "Avadi Regional Depot"
+              },
+              {
+                "id": "TN-01-SR-102",
+                "regNo": "TN-20-CZ-4402",
+                "capacity": 52,
+                "depot": "Pattabiram Depot"
+              },
+              {
+                "id": "TN-01-SR-103",
+                "regNo": "TN-20-CZ-4403",
+                "capacity": 36,
+                "depot": "Ambattur Depot"
+              },
+              {
+                "id": "TN-01-SR-104",
+                "regNo": "TN-20-CZ-4404",
+                "capacity": 32,
+                "depot": "Poonamallee Depot"
+              }
+            ],
+            "totalFleetCapacity": 162
+          },
+          "reasoning": "Allocated 4 verified road-worthy buses with combined single-trip capacity of 162 seats.",
+          "timestamp": "2026-10-28T17:02:16.887Z"
+        },
+        {
+          "step": 4,
+          "tool": "route_optimizer",
+          "input": {
+            "origin": "Vel Tech Junction",
+            "waypoints": [
+              "Morai Village Center",
+              "Kollumedu Rural Colony"
+            ],
+            "destination": "Avadi Bus Terminal"
+          },
+          "output": {
+            "optimalStopSequence": [
+              "Vel Tech Junction",
+              "Morai Village Center",
+              "Kollumedu Rural Colony",
+              "Avadi Bus Terminal"
+            ],
+            "distanceKm": 21.8,
+            "bypassUnpavedChokepoints": true
+          },
+          "reasoning": "Engineered circular feeder loop servicing rural schools and primary health clinics with 19% fuel conservation.",
+          "timestamp": "2026-10-28T17:02:16.887Z"
+        },
+        {
+          "step": 5,
+          "tool": "schedule_optimization",
+          "input": {
+            "fleetSize": 4,
+            "headwayMinutes": 45
+          },
+          "output": {
+            "trips": [
+              {
+                "tripId": "TRIP-AGT-100",
+                "busId": "TN-01-SR-101",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:00",
+                "arrivalTime": "07:35",
+                "allocatedSeats": 42
+              },
+              {
+                "tripId": "TRIP-AGT-101",
+                "busId": "TN-01-SR-102",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "07:45",
+                "arrivalTime": "08:20",
+                "allocatedSeats": 52
+              },
+              {
+                "tripId": "TRIP-AGT-102",
+                "busId": "TN-01-SR-103",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "08:30",
+                "arrivalTime": "09:05",
+                "allocatedSeats": 36
+              },
+              {
+                "tripId": "TRIP-AGT-103",
+                "busId": "TN-01-SR-104",
+                "origin": "Vel Tech Junction",
+                "destination": "Kollumedu Rural Colony",
+                "departureTime": "09:15",
+                "arrivalTime": "09:50",
+                "allocatedSeats": 32
+              }
+            ]
+          },
+          "reasoning": "Synchronized 45-minute headway providing regular frequencies without driver fatigue.",
+          "timestamp": "2026-10-28T17:02:16.887Z"
+        },
+        {
+          "step": 6,
+          "tool": "validate_constraints",
+          "input": {
+            "demand": 260,
+            "fleetCapacity": 162
+          },
+          "output": {
+            "passed": true,
+            "capacityAdequate": true,
+            "driverHoursCompliant": true,
+            "warnings": [
+              "Single trip fleet capacity (162) is below surge demand (260); absorbed through staggered multi-trip timetable."
+            ]
+          },
+          "reasoning": "Operational constraint validation passed. Multi-trip rotation satisfies 100% of rural commuters.",
+          "timestamp": "2026-10-28T17:02:16.887Z"
+        }
+      ],
+      "createdAt": "2026-10-28T17:02:16.887Z",
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:02:25.502Z",
+      "adminNotes": "Approved by Transportation Authority"
+    },
+    {
+      "id": "PLAN-801",
+      "title": "Morning Feeder Service for Vel Tech & Morai Corridors",
+      "requestText": "Plan bus services for Vel Tech and Morai tomorrow morning from 7 AM to 10 AM using 4 available buses",
+      "status": "APPROVED",
+      "predictedDemand": 185,
+      "totalFleetCapacity": 162,
+      "targetVillages": [
+        "Vel Tech Junction",
+        "Morai Village Center",
+        "Kollumedu Rural Colony"
+      ],
+      "totalDistanceKm": 21.4,
+      "allocatedBuses": [
+        "TN-01-SR-101",
+        "TN-01-SR-102",
+        "TN-01-SR-103",
+        "TN-01-SR-104"
+      ],
+      "proposedTrips": [
+        {
+          "tripId": "TRIP-SR-101",
+          "busId": "TN-01-SR-101",
+          "origin": "Vel Tech Junction",
+          "destination": "Pattabiram",
+          "departureTime": "07:15",
+          "arrivalTime": "07:45",
+          "allocatedSeats": 42
+        },
+        {
+          "tripId": "TRIP-SR-102",
+          "busId": "TN-01-SR-102",
+          "origin": "Vel Tech Junction",
+          "destination": "Pattabiram",
+          "departureTime": "08:00",
+          "arrivalTime": "08:30",
+          "allocatedSeats": 52
+        }
+      ],
+      "constraintCheck": {
+        "passed": true,
+        "capacityAdequate": true,
+        "driverHoursCompliant": true,
+        "warnings": []
+      },
+      "executionSteps": [
+        {
+          "step": 1,
+          "tool": "retrieve_demand_data",
+          "input": {
+            "villages": [
+              "Vel Tech Junction",
+              "Morai Village Center"
+            ],
+            "window": "7 AM - 10 AM"
+          },
+          "output": {
+            "recordsFound": 14,
+            "rawDemand": 154
+          },
+          "reasoning": "Extracted passenger check-ins and historical tap logs for the morning commuter window.",
+          "timestamp": "2026-10-28T14:42:43.960Z"
+        },
+        {
+          "step": 2,
+          "tool": "ai_demand_prediction",
+          "input": {
+            "rawDemand": 154,
+            "isMarketDay": true
+          },
+          "output": {
+            "predictedPassengers": 185,
+            "peakFactor": 1.25,
+            "confidence": 0.91
+          },
+          "reasoning": "Random Forest Regressor forecasted 185 passengers taking student college hours into account.",
+          "timestamp": "2026-10-28T14:42:53.960Z"
+        },
+        {
+          "step": 3,
+          "tool": "check_bus_availability",
+          "input": {
+            "requested": 4
+          },
+          "output": {
+            "available": 4,
+            "fleetCapacity": 162
+          },
+          "reasoning": "Verified 4 active depot vehicles with clean inspection status.",
+          "timestamp": "2026-10-28T14:43:03.960Z"
+        },
+        {
+          "step": 4,
+          "tool": "route_optimizer",
+          "input": {
+            "origin": "Vel Tech Junction",
+            "destination": "Pattabiram"
+          },
+          "output": {
+            "optimalPathKm": 21.4,
+            "avoidedBottlenecks": true
+          },
+          "reasoning": "Routed via Outer Ring Road connector bypassing heavy school crossing congestion.",
+          "timestamp": "2026-10-28T14:43:13.960Z"
+        },
+        {
+          "step": 5,
+          "tool": "schedule_optimization",
+          "input": {
+            "fleetSize": 4,
+            "frequencyGoalMins": 45
+          },
+          "output": {
+            "departuresGenerated": 4
+          },
+          "reasoning": "Balanced 45-min headway ensuring buses maintain standard driver shift rest times.",
+          "timestamp": "2026-10-28T14:43:23.960Z"
+        },
+        {
+          "step": 6,
+          "tool": "validate_constraints",
+          "input": {
+            "demand": 185,
+            "fleetCapacity": 162
+          },
+          "output": {
+            "passed": true,
+            "warnings": []
+          },
+          "reasoning": "Trips staggered across 2 rotations to absorb the peak without passenger crowding.",
+          "timestamp": "2026-10-28T14:43:33.960Z"
+        }
+      ],
+      "adminNotes": "Plan reviewed and approved for semester exam week.",
+      "approvedAt": "2026-10-28T15:42:43.960Z",
+      "approvedBy": "Transport Commissioner",
+      "createdAt": "2026-10-28T14:42:43.960Z"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "DS-01",
+      "filename": "passenger_demand.csv",
+      "type": "Passenger Demand Logs",
+      "recordCount": 28,
+      "uploadedAt": "2026-10-26T16:42:43.960Z",
+      "status": "Active & Verified"
+    },
+    {
+      "id": "DS-02",
+      "filename": "villages_stops.csv",
+      "type": "Villages & Stops Registry",
+      "recordCount": 14,
+      "uploadedAt": "2026-10-26T16:42:43.960Z",
+      "status": "Active & Verified"
+    },
+    {
+      "id": "DS-03",
+      "filename": "routes_distances.csv",
+      "type": "Rural Corridors & Road Quality",
+      "recordCount": 7,
+      "uploadedAt": "2026-10-26T16:42:43.960Z",
+      "status": "Active & Verified"
+    },
+    {
+      "id": "DS-04",
+      "filename": "buses.csv",
+      "type": "Fleet Telemetry & Depots",
+      "recordCount": 8,
+      "uploadedAt": "2026-10-26T16:42:43.960Z",
+      "status": "Active & Verified"
+    },
+    {
+      "id": "DS-05",
+      "filename": "historical_counts.csv",
+      "type": "Historical Passenger Counts",
+      "recordCount": 24,
+      "uploadedAt": "2026-10-26T16:42:43.960Z",
+      "status": "Active & Verified"
+    }
+  ],
+  "publicTransportServices": [
+    {
+      "id": "PTS-AP-01",
+      "serviceId": "APSRTC-PV-4811",
+      "operatorName": "APSRTC",
+      "operatorDivision": "APSRTC NTR District Division - Tiruvuru Depot",
+      "busNumber": "AP-16-Z-5412",
+      "serviceNumber": "4811 (Palle Velugu)",
+      "serviceType": "Palle Velugu (Rural Feeder Ordinary)",
+      "originStop": "Khambhampadu",
+      "destinationStop": "Tiruvuru",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Khambhampadu Village",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "A.Konduru Mandal Junction",
+          "stopType": "Mandal Hub",
+          "approxArrivalMins": 18,
+          "fareFromOriginInr": 10
+        },
+        {
+          "sequence": 3,
+          "stopName": "Gollamandala Rural Stop",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 32,
+          "fareFromOriginInr": 15
+        },
+        {
+          "sequence": 4,
+          "stopName": "Madhavaram Cross",
+          "stopType": "Interchange",
+          "approxArrivalMins": 42,
+          "fareFromOriginInr": 18
+        },
+        {
+          "sequence": 5,
+          "stopName": "Tiruvuru APSRTC Bus Stand",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 52,
+          "fareFromOriginInr": 22
+        }
+      ],
+      "departureTime": "06:45",
+      "arrivalTime": "07:37",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 22,
+      "totalDistanceKm": 25.4,
+      "dataSource": "APSRTC Official Rural Feeder Network Timetable (NTR Dist Division)",
+      "lastVerified": "2026-10-25T09:30:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Primary early-morning rural feeder for high school students, college commuters, and local farmers traveling to Tiruvuru market."
+    },
+    {
+      "id": "PTS-AP-02",
+      "serviceId": "APSRTC-PV-4815",
+      "operatorName": "APSRTC",
+      "operatorDivision": "APSRTC NTR District Division - Tiruvuru Depot",
+      "busNumber": "AP-16-Z-5418",
+      "serviceNumber": "4815 (Palle Velugu)",
+      "serviceType": "Palle Velugu (Rural Feeder Ordinary)",
+      "originStop": "Khambhampadu",
+      "destinationStop": "Tiruvuru",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Khambhampadu Village",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "A.Konduru Mandal Junction",
+          "stopType": "Mandal Hub",
+          "approxArrivalMins": 16,
+          "fareFromOriginInr": 10
+        },
+        {
+          "sequence": 3,
+          "stopName": "Gollamandala Rural Stop",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 30,
+          "fareFromOriginInr": 15
+        },
+        {
+          "sequence": 4,
+          "stopName": "Madhavaram Cross",
+          "stopType": "Interchange",
+          "approxArrivalMins": 40,
+          "fareFromOriginInr": 18
+        },
+        {
+          "sequence": 5,
+          "stopName": "Tiruvuru APSRTC Bus Stand",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 50,
+          "fareFromOriginInr": 22
+        }
+      ],
+      "departureTime": "09:15",
+      "arrivalTime": "10:05",
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "fareInr": 22,
+      "totalDistanceKm": 25.4,
+      "dataSource": "APSRTC Official Rural Feeder Network Timetable (NTR Dist Division)",
+      "lastVerified": "2026-10-25T09:30:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Morning peak commute service into Tiruvuru mandal offices and general hospital."
+    },
+    {
+      "id": "PTS-AP-03",
+      "serviceId": "APSRTC-PV-4823",
+      "operatorName": "APSRTC",
+      "operatorDivision": "APSRTC NTR District Division - Tiruvuru Depot",
+      "busNumber": "AP-16-Z-5422",
+      "serviceNumber": "4823 (Palle Velugu)",
+      "serviceType": "Palle Velugu (Rural Feeder Ordinary)",
+      "originStop": "Khambhampadu",
+      "destinationStop": "Tiruvuru",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Khambhampadu Village",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "A.Konduru Mandal Junction",
+          "stopType": "Mandal Hub",
+          "approxArrivalMins": 18,
+          "fareFromOriginInr": 10
+        },
+        {
+          "sequence": 3,
+          "stopName": "Gollamandala Rural Stop",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 32,
+          "fareFromOriginInr": 15
+        },
+        {
+          "sequence": 4,
+          "stopName": "Madhavaram Cross",
+          "stopType": "Interchange",
+          "approxArrivalMins": 42,
+          "fareFromOriginInr": 18
+        },
+        {
+          "sequence": 5,
+          "stopName": "Tiruvuru APSRTC Bus Stand",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 53,
+          "fareFromOriginInr": 22
+        }
+      ],
+      "departureTime": "13:45",
+      "arrivalTime": "14:38",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 22,
+      "totalDistanceKm": 25.4,
+      "dataSource": "APSRTC Official Rural Feeder Network Timetable (NTR Dist Division)",
+      "lastVerified": "2026-10-25T09:30:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Afternoon feeder service facilitating rural healthcare returns."
+    },
+    {
+      "id": "PTS-AP-04",
+      "serviceId": "APSRTC-EX-4835",
+      "operatorName": "APSRTC",
+      "operatorDivision": "APSRTC NTR District Division - Tiruvuru Depot",
+      "busNumber": "AP-16-Z-5490",
+      "serviceNumber": "4835 (Rural Express)",
+      "serviceType": "Express Feeder",
+      "originStop": "Khambhampadu",
+      "destinationStop": "Tiruvuru",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Khambhampadu Village",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "A.Konduru Mandal Junction",
+          "stopType": "Mandal Hub",
+          "approxArrivalMins": 15,
+          "fareFromOriginInr": 14
+        },
+        {
+          "sequence": 3,
+          "stopName": "Madhavaram Cross",
+          "stopType": "Interchange",
+          "approxArrivalMins": 36,
+          "fareFromOriginInr": 22
+        },
+        {
+          "sequence": 4,
+          "stopName": "Tiruvuru APSRTC Bus Stand",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 46,
+          "fareFromOriginInr": 26
+        }
+      ],
+      "departureTime": "17:30",
+      "arrivalTime": "18:16",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 26,
+      "totalDistanceKm": 25.4,
+      "dataSource": "APSRTC Official District Feeder Timetable (NTR Dist Division)",
+      "lastVerified": "2026-10-25T09:30:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Evening peak return express linking rural workforces."
+    },
+    {
+      "id": "PTS-AP-05",
+      "serviceId": "APSRTC-PV-4812",
+      "operatorName": "APSRTC",
+      "operatorDivision": "APSRTC NTR District Division - Tiruvuru Depot",
+      "busNumber": "AP-16-Z-5412",
+      "serviceNumber": "4812 (Palle Velugu)",
+      "serviceType": "Palle Velugu (Rural Feeder Ordinary)",
+      "originStop": "Tiruvuru",
+      "destinationStop": "Khambhampadu",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Tiruvuru APSRTC Bus Stand",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "Madhavaram Cross",
+          "stopType": "Interchange",
+          "approxArrivalMins": 10,
+          "fareFromOriginInr": 10
+        },
+        {
+          "sequence": 3,
+          "stopName": "Gollamandala Rural Stop",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 20,
+          "fareFromOriginInr": 15
+        },
+        {
+          "sequence": 4,
+          "stopName": "A.Konduru Mandal Junction",
+          "stopType": "Mandal Hub",
+          "approxArrivalMins": 34,
+          "fareFromOriginInr": 18
+        },
+        {
+          "sequence": 5,
+          "stopName": "Khambhampadu Village",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 52,
+          "fareFromOriginInr": 22
+        }
+      ],
+      "departureTime": "07:45",
+      "arrivalTime": "08:37",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 22,
+      "totalDistanceKm": 25.4,
+      "dataSource": "APSRTC Official Rural Feeder Network Timetable (NTR Dist Division)",
+      "lastVerified": "2026-10-25T09:30:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Return trip from Tiruvuru hub back to Khambhampadu village."
+    },
+    {
+      "id": "PTS-AP-06",
+      "serviceId": "APSRTC-PV-4881",
+      "operatorName": "APSRTC",
+      "operatorDivision": "APSRTC NTR District Division - Tiruvuru Depot",
+      "busNumber": "AP-16-Z-5430",
+      "serviceNumber": "4881 (Mandal Link)",
+      "serviceType": "Palle Velugu (Rural Feeder Ordinary)",
+      "originStop": "Khambhampadu",
+      "destinationStop": "A.Konduru",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Khambhampadu Village",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "A.Konduru Mandal Junction",
+          "stopType": "Mandal Hub",
+          "approxArrivalMins": 20,
+          "fareFromOriginInr": 10
+        }
+      ],
+      "departureTime": "11:00",
+      "arrivalTime": "11:20",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 10,
+      "totalDistanceKm": 11.2,
+      "dataSource": "APSRTC Official Rural Feeder Network Timetable (NTR Dist Division)",
+      "lastVerified": "2026-10-25T09:30:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Feeder shuttle to A.Konduru junction (connects with Tiruvuru line)."
+    },
+    {
+      "id": "PTS-AP-07",
+      "serviceId": "APSRTC-PV-4902",
+      "operatorName": "APSRTC",
+      "operatorDivision": "APSRTC NTR District Division - Tiruvuru Depot",
+      "busNumber": "AP-16-Z-5444",
+      "serviceNumber": "4902 (Highway Feeder)",
+      "serviceType": "Palle Velugu (Rural Feeder Ordinary)",
+      "originStop": "A.Konduru",
+      "destinationStop": "Tiruvuru",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "A.Konduru Mandal Junction",
+          "stopType": "Mandal Hub",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "Gollamandala Rural Stop",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 14,
+          "fareFromOriginInr": 10
+        },
+        {
+          "sequence": 3,
+          "stopName": "Madhavaram Cross",
+          "stopType": "Interchange",
+          "approxArrivalMins": 24,
+          "fareFromOriginInr": 12
+        },
+        {
+          "sequence": 4,
+          "stopName": "Tiruvuru APSRTC Bus Stand",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 35,
+          "fareFromOriginInr": 16
+        }
+      ],
+      "departureTime": "11:45",
+      "arrivalTime": "12:20",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 16,
+      "totalDistanceKm": 14.8,
+      "dataSource": "APSRTC Official Rural Feeder Network Timetable (NTR Dist Division)",
+      "lastVerified": "2026-10-25T09:30:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Interchange feeder at A.Konduru receiving passengers from Khambhampadu for Tiruvuru transfer."
+    },
+    {
+      "id": "PTS-TN-01",
+      "serviceId": "MTC-65H-01",
+      "operatorName": "MTC Chennai",
+      "operatorDivision": "Metropolitan Transport Corporation - Avadi Depot",
+      "busNumber": "TN-01-N-9811",
+      "serviceNumber": "65H (Ordinary)",
+      "serviceType": "Metropolitan Rural Feeder",
+      "originStop": "Vel Tech Junction",
+      "destinationStop": "Avadi Bus Terminal",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Vel Tech Junction",
+          "stopType": "College Stop",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "Morai Village Center",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 10,
+          "fareFromOriginInr": 8
+        },
+        {
+          "sequence": 3,
+          "stopName": "Kollumedu Rural Colony",
+          "stopType": "Village Stop",
+          "approxArrivalMins": 18,
+          "fareFromOriginInr": 11
+        },
+        {
+          "sequence": 4,
+          "stopName": "Pattabiram Railway Stop",
+          "stopType": "Interchange",
+          "approxArrivalMins": 26,
+          "fareFromOriginInr": 15
+        },
+        {
+          "sequence": 5,
+          "stopName": "Avadi Bus Terminal",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 38,
+          "fareFromOriginInr": 18
+        }
+      ],
+      "departureTime": "07:30",
+      "arrivalTime": "08:08",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 18,
+      "totalDistanceKm": 16.2,
+      "dataSource": "MTC Chennai Official Route Master Schedule (Avadi Depot Division)",
+      "lastVerified": "2026-10-26T08:00:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Direct student and workforce feeder connecting Vel Tech college junction to Avadi railway hub."
+    },
+    {
+      "id": "PTS-TN-02",
+      "serviceId": "MTC-65H-02",
+      "operatorName": "MTC Chennai",
+      "operatorDivision": "Metropolitan Transport Corporation - Avadi Depot",
+      "busNumber": "TN-01-N-9824",
+      "serviceNumber": "65H (Ordinary)",
+      "serviceType": "Metropolitan Rural Feeder",
+      "originStop": "Vel Tech Junction",
+      "destinationStop": "Avadi Bus Terminal",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Vel Tech Junction",
+          "stopType": "College Stop",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "Morai Village Center",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 10,
+          "fareFromOriginInr": 8
+        },
+        {
+          "sequence": 3,
+          "stopName": "Kollumedu Rural Colony",
+          "stopType": "Village Stop",
+          "approxArrivalMins": 18,
+          "fareFromOriginInr": 11
+        },
+        {
+          "sequence": 4,
+          "stopName": "Pattabiram Railway Stop",
+          "stopType": "Interchange",
+          "approxArrivalMins": 26,
+          "fareFromOriginInr": 15
+        },
+        {
+          "sequence": 5,
+          "stopName": "Avadi Bus Terminal",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 38,
+          "fareFromOriginInr": 18
+        }
+      ],
+      "departureTime": "08:45",
+      "arrivalTime": "09:23",
+      "operatingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "fareInr": 18,
+      "totalDistanceKm": 16.2,
+      "dataSource": "MTC Chennai Official Route Master Schedule (Avadi Depot Division)",
+      "lastVerified": "2026-10-26T08:00:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Morning peak student shuttle from Vel Tech to Avadi."
+    },
+    {
+      "id": "PTS-TN-03",
+      "serviceId": "TNSTC-101-01",
+      "operatorName": "TNSTC Villupuram",
+      "operatorDivision": "Tiruvallur District Branch Depot",
+      "busNumber": "TN-20-N-3412",
+      "serviceNumber": "101 (Mofussil Ordinary)",
+      "serviceType": "Rural Feeder Ordinary",
+      "originStop": "Thiruvallur Collectorate",
+      "destinationStop": "Avadi Bus Terminal",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Thiruvallur Collectorate",
+          "stopType": "District HQ",
+          "approxArrivalMins": 0,
+          "fareFromOriginInr": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "Thandurai Gramam",
+          "stopType": "Village Panchayat",
+          "approxArrivalMins": 20,
+          "fareFromOriginInr": 12
+        },
+        {
+          "sequence": 3,
+          "stopName": "Pattabiram Railway Stop",
+          "stopType": "Interchange",
+          "approxArrivalMins": 34,
+          "fareFromOriginInr": 18
+        },
+        {
+          "sequence": 4,
+          "stopName": "Avadi Bus Terminal",
+          "stopType": "Terminal Depot",
+          "approxArrivalMins": 48,
+          "fareFromOriginInr": 24
+        }
+      ],
+      "departureTime": "07:15",
+      "arrivalTime": "08:03",
+      "operatingDays": [
+        "All Days",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "fareInr": 24,
+      "totalDistanceKm": 24.5,
+      "dataSource": "TNSTC Villupuram Official Operational Timetable (Tiruvallur Division)",
+      "lastVerified": "2026-10-24T10:15:00.000Z",
+      "verificationStatus": "VERIFIED_OFFICIAL",
+      "isActive": true,
+      "remarks": "Connecting district administrative collectorate to suburban industrial belt."
+    },
+    {
+      "id": "PTS-SMP-01",
+      "serviceId": "SAMPLE-KA-201",
+      "operatorName": "KSRTC (Demonstration Only)",
+      "operatorDivision": "Mandya Division (Sample Data)",
+      "busNumber": "KA-11-F-9901",
+      "serviceNumber": "DEMO-201",
+      "serviceType": "Sarige (Demo Feeder)",
+      "originStop": "Mandya Rural Bus Stand",
+      "destinationStop": "Maddur Bus Stand",
+      "intermediateStops": [
+        {
+          "sequence": 1,
+          "stopName": "Mandya Rural Bus Stand",
+          "sequenceNumber": 1,
+          "approxArrivalMins": 0
+        },
+        {
+          "sequence": 2,
+          "stopName": "Maddur Bus Stand",
+          "sequenceNumber": 2,
+          "approxArrivalMins": 42
+        }
+      ],
+      "departureTime": "08:00",
+      "arrivalTime": "08:42",
+      "operatingDays": [
+        "All Days"
+      ],
+      "fareInr": 22,
+      "totalDistanceKm": 21,
+      "dataSource": "Sample Data — Not Verified (Demonstration Only)",
+      "lastVerified": "2026-10-01T00:00:00.000Z",
+      "verificationStatus": "SAMPLE_UNVERIFIED",
+      "isActive": true,
+      "remarks": "Simulated demonstration record for Karnataka rural corridor. Not official GTFS schedule."
+    }
+  ],
+  "schedulePlans": [
+    {
+      "versionId": "PLAN-V4",
+      "versionNumber": 4,
+      "label": "v4.0 (Dynamic Optimized)",
+      "status": "APPROVED",
+      "generatedAt": "2026-10-28T17:51:43.583Z",
+      "adminNotes": "Approved Test B schedule for operational deployment.",
+      "dataSnapshot": {
+        "totalCheckInsUsed": 9,
+        "activeBusesCount": 5,
+        "totalFleetCapacity": 217,
+        "activeRoutesCount": 8,
+        "corridorDemands": [
+          {
+            "routeId": "R-101",
+            "routeName": "Thiruvallur - Avadi Express",
+            "origin": "Thiruvallur Village",
+            "destination": "Avadi Terminal",
+            "distanceKm": 24.5,
+            "avgDurationMins": 52,
+            "recordedDemand": 2,
+            "predictedDemand": 2,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-102",
+            "routeName": "Vel Tech - Pattabiram Connector",
+            "origin": "Vel Tech Junction",
+            "destination": "Pattabiram",
+            "distanceKm": 11.2,
+            "avgDurationMins": 28,
+            "recordedDemand": 17,
+            "predictedDemand": 20,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-103",
+            "routeName": "Morai - Ambattur Industrial Link",
+            "origin": "Morai Rural Colony",
+            "destination": "Ambattur Estate",
+            "distanceKm": 14.8,
+            "avgDurationMins": 36,
+            "recordedDemand": 3,
+            "predictedDemand": 3,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-104",
+            "routeName": "Thandurai - Poonamallee Shuttle",
+            "origin": "Thandurai Village",
+            "destination": "Poonamallee",
+            "distanceKm": 16.4,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-105",
+            "routeName": "Vellanur - Red Hills Line",
+            "origin": "Vellanur Village",
+            "destination": "Red Hills Junction",
+            "distanceKm": 8.9,
+            "avgDurationMins": 22,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "distanceKm": 25.4,
+            "avgDurationMins": 48,
+            "recordedDemand": 50,
+            "predictedDemand": 57,
+            "recommendedTrips": 2
+          },
+          {
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "distanceKm": 18,
+            "avgDurationMins": 35,
+            "recordedDemand": 5,
+            "predictedDemand": 6,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-108",
+            "routeName": "Village C - Town D Rural Valley Line",
+            "origin": "Village C",
+            "destination": "Town D",
+            "distanceKm": 22,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          }
+        ],
+        "parameters": {
+          "operatingHours": "06:30 - 20:30",
+          "turnaroundMins": 15,
+          "maxTripsPerBus": 4
+        }
+      },
+      "trips": [
+        {
+          "tripId": "TRIP-OPT-3583-1",
+          "routeId": "R-106",
+          "routeName": "Khambhampadu - Tiruvuru Feeder",
+          "origin": "Khambhampadu",
+          "destination": "Tiruvuru",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "07:00",
+          "arrivalTime": "07:48",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 29,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3583-2",
+          "routeId": "R-106",
+          "routeName": "Khambhampadu - Tiruvuru Feeder",
+          "origin": "Khambhampadu",
+          "destination": "Tiruvuru",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "17:15",
+          "arrivalTime": "18:03",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 29,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3583-3",
+          "routeId": "R-102",
+          "routeName": "Vel Tech - Pattabiram Connector",
+          "origin": "Vel Tech Junction",
+          "destination": "Pattabiram",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "08:00",
+          "arrivalTime": "08:28",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 20,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 20 passengers with Eicher Skyline Pro (36 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3583-4",
+          "routeId": "R-107",
+          "routeName": "Village A - Town B Rural Corridor",
+          "origin": "Village A",
+          "destination": "Town B",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "08:30",
+          "arrivalTime": "09:05",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 6,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 6 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3583-5",
+          "routeId": "R-103",
+          "routeName": "Morai - Ambattur Industrial Link",
+          "origin": "Morai Rural Colony",
+          "destination": "Ambattur Estate",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "09:00",
+          "arrivalTime": "09:36",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 3,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 3 passengers with Eicher Skyline Pro (36 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3583-6",
+          "routeId": "R-101",
+          "routeName": "Thiruvallur - Avadi Express",
+          "origin": "Thiruvallur Village",
+          "destination": "Avadi Terminal",
+          "busId": "TN-01-SR-101",
+          "busRegNo": "TN-20-CZ-4401",
+          "busModel": "Tata Starbus 42-Seater",
+          "departureTime": "07:00",
+          "arrivalTime": "07:52",
+          "allocatedCapacity": 42,
+          "expectedPassengers": 2,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 2 passengers with Tata Starbus 42-Seater (42 seats)."
+        }
+      ],
+      "diff": {
+        "previousVersionId": "PLAN-V3",
+        "previousVersionNumber": 3,
+        "addedTrips": [
+          {
+            "tripId": "TRIP-OPT-3583-1",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "07:00",
+            "arrivalTime": "07:48",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 29,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-3583-2",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "17:15",
+            "arrivalTime": "18:03",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 29,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-3583-4",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "08:30",
+            "arrivalTime": "09:05",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 6,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 6 passengers with Tata Marcopolo EV (32 seats)."
+          }
+        ],
+        "removedTrips": [
+          {
+            "tripId": "TRIP-OPT-3570-1",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "07:00",
+            "arrivalTime": "07:35",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 26,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-3570-2",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "17:15",
+            "arrivalTime": "17:50",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 26,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-3570-4",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-103",
+            "busRegNo": "TN-20-CZ-4403",
+            "busModel": "Eicher Skyline Pro",
+            "departureTime": "08:30",
+            "arrivalTime": "09:18",
+            "allocatedCapacity": 36,
+            "expectedPassengers": 12,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 12 passengers with Eicher Skyline Pro (36 seats)."
+          }
+        ],
+        "modifiedTrips": [
+          {
+            "tripId": "TRIP-OPT-3583-3",
+            "routeName": "Vel Tech - Pattabiram Connector",
+            "oldDetails": {
+              "departureTime": "08:00",
+              "arrivalTime": "08:28",
+              "busId": "TN-01-SR-104",
+              "capacity": 32,
+              "passengers": 20
+            },
+            "newDetails": {
+              "departureTime": "08:00",
+              "arrivalTime": "08:28",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 20
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          },
+          {
+            "tripId": "TRIP-OPT-3583-5",
+            "routeName": "Morai - Ambattur Industrial Link",
+            "oldDetails": {
+              "departureTime": "09:00",
+              "arrivalTime": "09:36",
+              "busId": "TN-01-SR-104",
+              "capacity": 32,
+              "passengers": 3
+            },
+            "newDetails": {
+              "departureTime": "09:00",
+              "arrivalTime": "09:36",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 3
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          },
+          {
+            "tripId": "TRIP-OPT-3583-6",
+            "routeName": "Thiruvallur - Avadi Express",
+            "oldDetails": {
+              "departureTime": "07:00",
+              "arrivalTime": "07:52",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 2
+            },
+            "newDetails": {
+              "departureTime": "07:00",
+              "arrivalTime": "07:52",
+              "busId": "TN-01-SR-101",
+              "capacity": 42,
+              "passengers": 2
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          }
+        ],
+        "unmetDemand": [],
+        "changeReasons": [
+          "Added 3 new trip(s) on Khambhampadu - Tiruvuru Feeder, Village A - Town B Rural Corridor to absorb increased passenger demand.",
+          "Omitted 3 low-utilization trip(s) on Village A - Town B Rural Corridor, Khambhampadu - Tiruvuru Feeder where passenger demand decreased to prevent running empty buses.",
+          "Adjusted timing and bus assignments on 3 trip(s) to guarantee zero overlap and enforce 15-minute turnaround rest buffers."
+        ]
+      },
+      "metrics": {
+        "totalTrips": 6,
+        "servedDemand": 89,
+        "unmetDemand": 0,
+        "demandSatisfactionPct": 100,
+        "fleetUtilizationPct": 40,
+        "totalOperatingDistanceKm": 119.3
+      },
+      "optimizationLog": [
+        "Evaluated 8 eligible corridors using 9 passenger check-in records.",
+        "Available fleet: 5 active road-worthy buses with combined capacity of 217 seats.",
+        "Corridor Khambhampadu - Tiruvuru Feeder: Successfully allocated 2 trip(s) for 57 passengers.",
+        "Corridor Vel Tech - Pattabiram Connector: Successfully allocated 1 trip(s) for 20 passengers.",
+        "Corridor Village A - Town B Rural Corridor: Successfully allocated 1 trip(s) for 6 passengers.",
+        "Corridor Morai - Ambattur Industrial Link: Successfully allocated 1 trip(s) for 3 passengers.",
+        "Corridor Thiruvallur - Avadi Express: Successfully allocated 1 trip(s) for 2 passengers.",
+        "Corridor Thandurai - Poonamallee Shuttle: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Vellanur - Red Hills Line: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Village C - Town D Rural Valley Line: Zero recorded passenger demand; trip allocation deferred."
+      ],
+      "approvedBy": "SmartRoute Transport Authority",
+      "approvedAt": "2026-10-28T17:51:43.589Z"
+    },
+    {
+      "versionId": "PLAN-V3",
+      "versionNumber": 3,
+      "label": "v3.0 (Dynamic Optimized)",
+      "status": "PROPOSED",
+      "generatedAt": "2026-10-28T17:51:43.570Z",
+      "adminNotes": "Generated from 9 check-ins and 5 buses.",
+      "dataSnapshot": {
+        "totalCheckInsUsed": 9,
+        "activeBusesCount": 5,
+        "totalFleetCapacity": 217,
+        "activeRoutesCount": 8,
+        "corridorDemands": [
+          {
+            "routeId": "R-101",
+            "routeName": "Thiruvallur - Avadi Express",
+            "origin": "Thiruvallur Village",
+            "destination": "Avadi Terminal",
+            "distanceKm": 24.5,
+            "avgDurationMins": 52,
+            "recordedDemand": 2,
+            "predictedDemand": 2,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-102",
+            "routeName": "Vel Tech - Pattabiram Connector",
+            "origin": "Vel Tech Junction",
+            "destination": "Pattabiram",
+            "distanceKm": 11.2,
+            "avgDurationMins": 28,
+            "recordedDemand": 17,
+            "predictedDemand": 20,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-103",
+            "routeName": "Morai - Ambattur Industrial Link",
+            "origin": "Morai Rural Colony",
+            "destination": "Ambattur Estate",
+            "distanceKm": 14.8,
+            "avgDurationMins": 36,
+            "recordedDemand": 3,
+            "predictedDemand": 3,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-104",
+            "routeName": "Thandurai - Poonamallee Shuttle",
+            "origin": "Thandurai Village",
+            "destination": "Poonamallee",
+            "distanceKm": 16.4,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-105",
+            "routeName": "Vellanur - Red Hills Line",
+            "origin": "Vellanur Village",
+            "destination": "Red Hills Junction",
+            "distanceKm": 8.9,
+            "avgDurationMins": 22,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "distanceKm": 25.4,
+            "avgDurationMins": 48,
+            "recordedDemand": 10,
+            "predictedDemand": 12,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "distanceKm": 18,
+            "avgDurationMins": 35,
+            "recordedDemand": 45,
+            "predictedDemand": 52,
+            "recommendedTrips": 2
+          },
+          {
+            "routeId": "R-108",
+            "routeName": "Village C - Town D Rural Valley Line",
+            "origin": "Village C",
+            "destination": "Town D",
+            "distanceKm": 22,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          }
+        ],
+        "parameters": {
+          "operatingHours": "06:30 - 20:30",
+          "turnaroundMins": 15,
+          "maxTripsPerBus": 4
+        }
+      },
+      "trips": [
+        {
+          "tripId": "TRIP-OPT-3570-1",
+          "routeId": "R-107",
+          "routeName": "Village A - Town B Rural Corridor",
+          "origin": "Village A",
+          "destination": "Town B",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "07:00",
+          "arrivalTime": "07:35",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 26,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3570-2",
+          "routeId": "R-107",
+          "routeName": "Village A - Town B Rural Corridor",
+          "origin": "Village A",
+          "destination": "Town B",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "17:15",
+          "arrivalTime": "17:50",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 26,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3570-3",
+          "routeId": "R-102",
+          "routeName": "Vel Tech - Pattabiram Connector",
+          "origin": "Vel Tech Junction",
+          "destination": "Pattabiram",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "08:00",
+          "arrivalTime": "08:28",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 20,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 20 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3570-4",
+          "routeId": "R-106",
+          "routeName": "Khambhampadu - Tiruvuru Feeder",
+          "origin": "Khambhampadu",
+          "destination": "Tiruvuru",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "08:30",
+          "arrivalTime": "09:18",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 12,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 12 passengers with Eicher Skyline Pro (36 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3570-5",
+          "routeId": "R-103",
+          "routeName": "Morai - Ambattur Industrial Link",
+          "origin": "Morai Rural Colony",
+          "destination": "Ambattur Estate",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "09:00",
+          "arrivalTime": "09:36",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 3,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 3 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-3570-6",
+          "routeId": "R-101",
+          "routeName": "Thiruvallur - Avadi Express",
+          "origin": "Thiruvallur Village",
+          "destination": "Avadi Terminal",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "07:00",
+          "arrivalTime": "07:52",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 2,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 2 passengers with Eicher Skyline Pro (36 seats)."
+        }
+      ],
+      "diff": {
+        "previousVersionId": "PLAN-V2",
+        "previousVersionNumber": 2,
+        "addedTrips": [
+          {
+            "tripId": "TRIP-OPT-3570-1",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "07:00",
+            "arrivalTime": "07:35",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 26,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-3570-2",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "17:15",
+            "arrivalTime": "17:50",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 26,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-3570-4",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-103",
+            "busRegNo": "TN-20-CZ-4403",
+            "busModel": "Eicher Skyline Pro",
+            "departureTime": "08:30",
+            "arrivalTime": "09:18",
+            "allocatedCapacity": 36,
+            "expectedPassengers": 12,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 12 passengers with Eicher Skyline Pro (36 seats)."
+          }
+        ],
+        "removedTrips": [
+          {
+            "tripId": "TRIP-OPT-9679-1",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "07:00",
+            "arrivalTime": "07:48",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 29,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-9679-2",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "17:15",
+            "arrivalTime": "18:03",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 29,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-9679-4",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "08:30",
+            "arrivalTime": "09:05",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 6,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 6 passengers with Tata Marcopolo EV (32 seats)."
+          }
+        ],
+        "modifiedTrips": [
+          {
+            "tripId": "TRIP-OPT-3570-3",
+            "routeName": "Vel Tech - Pattabiram Connector",
+            "oldDetails": {
+              "departureTime": "08:00",
+              "arrivalTime": "08:28",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 20
+            },
+            "newDetails": {
+              "departureTime": "08:00",
+              "arrivalTime": "08:28",
+              "busId": "TN-01-SR-104",
+              "capacity": 32,
+              "passengers": 20
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          },
+          {
+            "tripId": "TRIP-OPT-3570-5",
+            "routeName": "Morai - Ambattur Industrial Link",
+            "oldDetails": {
+              "departureTime": "09:00",
+              "arrivalTime": "09:36",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 3
+            },
+            "newDetails": {
+              "departureTime": "09:00",
+              "arrivalTime": "09:36",
+              "busId": "TN-01-SR-104",
+              "capacity": 32,
+              "passengers": 3
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          },
+          {
+            "tripId": "TRIP-OPT-3570-6",
+            "routeName": "Thiruvallur - Avadi Express",
+            "oldDetails": {
+              "departureTime": "07:00",
+              "arrivalTime": "07:52",
+              "busId": "TN-01-SR-101",
+              "capacity": 42,
+              "passengers": 2
+            },
+            "newDetails": {
+              "departureTime": "07:00",
+              "arrivalTime": "07:52",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 2
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          }
+        ],
+        "unmetDemand": [],
+        "changeReasons": [
+          "Added 3 new trip(s) on Village A - Town B Rural Corridor, Khambhampadu - Tiruvuru Feeder to absorb increased passenger demand.",
+          "Omitted 3 low-utilization trip(s) on Khambhampadu - Tiruvuru Feeder, Village A - Town B Rural Corridor where passenger demand decreased to prevent running empty buses.",
+          "Adjusted timing and bus assignments on 3 trip(s) to guarantee zero overlap and enforce 15-minute turnaround rest buffers."
+        ]
+      },
+      "metrics": {
+        "totalTrips": 6,
+        "servedDemand": 89,
+        "unmetDemand": 0,
+        "demandSatisfactionPct": 100,
+        "fleetUtilizationPct": 40,
+        "totalOperatingDistanceKm": 111.89999999999999
+      },
+      "optimizationLog": [
+        "Evaluated 8 eligible corridors using 9 passenger check-in records.",
+        "Available fleet: 5 active road-worthy buses with combined capacity of 217 seats.",
+        "Corridor Village A - Town B Rural Corridor: Successfully allocated 2 trip(s) for 52 passengers.",
+        "Corridor Vel Tech - Pattabiram Connector: Successfully allocated 1 trip(s) for 20 passengers.",
+        "Corridor Khambhampadu - Tiruvuru Feeder: Successfully allocated 1 trip(s) for 12 passengers.",
+        "Corridor Morai - Ambattur Industrial Link: Successfully allocated 1 trip(s) for 3 passengers.",
+        "Corridor Thiruvallur - Avadi Express: Successfully allocated 1 trip(s) for 2 passengers.",
+        "Corridor Thandurai - Poonamallee Shuttle: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Vellanur - Red Hills Line: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Village C - Town D Rural Valley Line: Zero recorded passenger demand; trip allocation deferred."
+      ]
+    },
+    {
+      "versionId": "PLAN-V2",
+      "versionNumber": 2,
+      "label": "v2.0 (Dynamic Optimized)",
+      "status": "PROPOSED",
+      "generatedAt": "2026-10-28T17:48:39.680Z",
+      "adminNotes": "Generated from 9 check-ins and 5 buses.",
+      "dataSnapshot": {
+        "totalCheckInsUsed": 9,
+        "activeBusesCount": 5,
+        "totalFleetCapacity": 217,
+        "activeRoutesCount": 8,
+        "corridorDemands": [
+          {
+            "routeId": "R-101",
+            "routeName": "Thiruvallur - Avadi Express",
+            "origin": "Thiruvallur Village",
+            "destination": "Avadi Terminal",
+            "distanceKm": 24.5,
+            "avgDurationMins": 52,
+            "recordedDemand": 2,
+            "predictedDemand": 2,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-102",
+            "routeName": "Vel Tech - Pattabiram Connector",
+            "origin": "Vel Tech Junction",
+            "destination": "Pattabiram",
+            "distanceKm": 11.2,
+            "avgDurationMins": 28,
+            "recordedDemand": 17,
+            "predictedDemand": 20,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-103",
+            "routeName": "Morai - Ambattur Industrial Link",
+            "origin": "Morai Rural Colony",
+            "destination": "Ambattur Estate",
+            "distanceKm": 14.8,
+            "avgDurationMins": 36,
+            "recordedDemand": 3,
+            "predictedDemand": 3,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-104",
+            "routeName": "Thandurai - Poonamallee Shuttle",
+            "origin": "Thandurai Village",
+            "destination": "Poonamallee",
+            "distanceKm": 16.4,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-105",
+            "routeName": "Vellanur - Red Hills Line",
+            "origin": "Vellanur Village",
+            "destination": "Red Hills Junction",
+            "distanceKm": 8.9,
+            "avgDurationMins": 22,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "distanceKm": 25.4,
+            "avgDurationMins": 48,
+            "recordedDemand": 50,
+            "predictedDemand": 57,
+            "recommendedTrips": 2
+          },
+          {
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "distanceKm": 18,
+            "avgDurationMins": 35,
+            "recordedDemand": 5,
+            "predictedDemand": 6,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-108",
+            "routeName": "Village C - Town D Rural Valley Line",
+            "origin": "Village C",
+            "destination": "Town D",
+            "distanceKm": 22,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          }
+        ],
+        "parameters": {
+          "operatingHours": "06:30 - 20:30",
+          "turnaroundMins": 15,
+          "maxTripsPerBus": 4
+        }
+      },
+      "trips": [
+        {
+          "tripId": "TRIP-OPT-9679-1",
+          "routeId": "R-106",
+          "routeName": "Khambhampadu - Tiruvuru Feeder",
+          "origin": "Khambhampadu",
+          "destination": "Tiruvuru",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "07:00",
+          "arrivalTime": "07:48",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 29,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9679-2",
+          "routeId": "R-106",
+          "routeName": "Khambhampadu - Tiruvuru Feeder",
+          "origin": "Khambhampadu",
+          "destination": "Tiruvuru",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "17:15",
+          "arrivalTime": "18:03",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 29,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9679-3",
+          "routeId": "R-102",
+          "routeName": "Vel Tech - Pattabiram Connector",
+          "origin": "Vel Tech Junction",
+          "destination": "Pattabiram",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "08:00",
+          "arrivalTime": "08:28",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 20,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 20 passengers with Eicher Skyline Pro (36 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9679-4",
+          "routeId": "R-107",
+          "routeName": "Village A - Town B Rural Corridor",
+          "origin": "Village A",
+          "destination": "Town B",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "08:30",
+          "arrivalTime": "09:05",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 6,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 6 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9679-5",
+          "routeId": "R-103",
+          "routeName": "Morai - Ambattur Industrial Link",
+          "origin": "Morai Rural Colony",
+          "destination": "Ambattur Estate",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "09:00",
+          "arrivalTime": "09:36",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 3,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 3 passengers with Eicher Skyline Pro (36 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9679-6",
+          "routeId": "R-101",
+          "routeName": "Thiruvallur - Avadi Express",
+          "origin": "Thiruvallur Village",
+          "destination": "Avadi Terminal",
+          "busId": "TN-01-SR-101",
+          "busRegNo": "TN-20-CZ-4401",
+          "busModel": "Tata Starbus 42-Seater",
+          "departureTime": "07:00",
+          "arrivalTime": "07:52",
+          "allocatedCapacity": 42,
+          "expectedPassengers": 2,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 2 passengers with Tata Starbus 42-Seater (42 seats)."
+        }
+      ],
+      "diff": {
+        "previousVersionId": "PLAN-V1",
+        "previousVersionNumber": 1,
+        "addedTrips": [
+          {
+            "tripId": "TRIP-OPT-9679-1",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "07:00",
+            "arrivalTime": "07:48",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 29,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-9679-2",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "17:15",
+            "arrivalTime": "18:03",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 29,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 57 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-9679-4",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "08:30",
+            "arrivalTime": "09:05",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 6,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 6 passengers with Tata Marcopolo EV (32 seats)."
+          }
+        ],
+        "removedTrips": [
+          {
+            "tripId": "TRIP-OPT-9667-1",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "07:00",
+            "arrivalTime": "07:35",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 26,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-9668-2",
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "busId": "TN-01-SR-104",
+            "busRegNo": "TN-20-CZ-4404",
+            "busModel": "Tata Marcopolo EV",
+            "departureTime": "17:15",
+            "arrivalTime": "17:50",
+            "allocatedCapacity": 32,
+            "expectedPassengers": 26,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+          },
+          {
+            "tripId": "TRIP-OPT-9668-4",
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "busId": "TN-01-SR-103",
+            "busRegNo": "TN-20-CZ-4403",
+            "busModel": "Eicher Skyline Pro",
+            "departureTime": "08:30",
+            "arrivalTime": "09:18",
+            "allocatedCapacity": 36,
+            "expectedPassengers": 12,
+            "turnaroundBufferMins": 15,
+            "status": "Feasible - Zero Conflict",
+            "reason": "Allocated to serve 12 passengers with Eicher Skyline Pro (36 seats)."
+          }
+        ],
+        "modifiedTrips": [
+          {
+            "tripId": "TRIP-OPT-9679-3",
+            "routeName": "Vel Tech - Pattabiram Connector",
+            "oldDetails": {
+              "departureTime": "08:00",
+              "arrivalTime": "08:28",
+              "busId": "TN-01-SR-104",
+              "capacity": 32,
+              "passengers": 20
+            },
+            "newDetails": {
+              "departureTime": "08:00",
+              "arrivalTime": "08:28",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 20
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          },
+          {
+            "tripId": "TRIP-OPT-9679-5",
+            "routeName": "Morai - Ambattur Industrial Link",
+            "oldDetails": {
+              "departureTime": "09:00",
+              "arrivalTime": "09:36",
+              "busId": "TN-01-SR-104",
+              "capacity": 32,
+              "passengers": 3
+            },
+            "newDetails": {
+              "departureTime": "09:00",
+              "arrivalTime": "09:36",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 3
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          },
+          {
+            "tripId": "TRIP-OPT-9679-6",
+            "routeName": "Thiruvallur - Avadi Express",
+            "oldDetails": {
+              "departureTime": "07:00",
+              "arrivalTime": "07:52",
+              "busId": "TN-01-SR-103",
+              "capacity": 36,
+              "passengers": 2
+            },
+            "newDetails": {
+              "departureTime": "07:00",
+              "arrivalTime": "07:52",
+              "busId": "TN-01-SR-101",
+              "capacity": 42,
+              "passengers": 2
+            },
+            "reason": "Realigned departure time by 0m to enforce driver turnaround buffers and match updated demand curve."
+          }
+        ],
+        "unmetDemand": [],
+        "changeReasons": [
+          "Added 3 new trip(s) on Khambhampadu - Tiruvuru Feeder, Village A - Town B Rural Corridor to absorb increased passenger demand.",
+          "Omitted 3 low-utilization trip(s) on Village A - Town B Rural Corridor, Khambhampadu - Tiruvuru Feeder where passenger demand decreased to prevent running empty buses.",
+          "Adjusted timing and bus assignments on 3 trip(s) to guarantee zero overlap and enforce 15-minute turnaround rest buffers."
+        ]
+      },
+      "metrics": {
+        "totalTrips": 6,
+        "servedDemand": 89,
+        "unmetDemand": 0,
+        "demandSatisfactionPct": 100,
+        "fleetUtilizationPct": 40,
+        "totalOperatingDistanceKm": 119.3
+      },
+      "optimizationLog": [
+        "Evaluated 8 eligible corridors using 9 passenger check-in records.",
+        "Available fleet: 5 active road-worthy buses with combined capacity of 217 seats.",
+        "Corridor Khambhampadu - Tiruvuru Feeder: Successfully allocated 2 trip(s) for 57 passengers.",
+        "Corridor Vel Tech - Pattabiram Connector: Successfully allocated 1 trip(s) for 20 passengers.",
+        "Corridor Village A - Town B Rural Corridor: Successfully allocated 1 trip(s) for 6 passengers.",
+        "Corridor Morai - Ambattur Industrial Link: Successfully allocated 1 trip(s) for 3 passengers.",
+        "Corridor Thiruvallur - Avadi Express: Successfully allocated 1 trip(s) for 2 passengers.",
+        "Corridor Thandurai - Poonamallee Shuttle: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Vellanur - Red Hills Line: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Village C - Town D Rural Valley Line: Zero recorded passenger demand; trip allocation deferred."
+      ]
+    },
+    {
+      "versionId": "PLAN-V1",
+      "versionNumber": 1,
+      "label": "v1.0 (Dynamic Optimized)",
+      "status": "PROPOSED",
+      "generatedAt": "2026-10-28T17:48:39.668Z",
+      "adminNotes": "Generated from 9 check-ins and 5 buses.",
+      "dataSnapshot": {
+        "totalCheckInsUsed": 9,
+        "activeBusesCount": 5,
+        "totalFleetCapacity": 217,
+        "activeRoutesCount": 8,
+        "corridorDemands": [
+          {
+            "routeId": "R-101",
+            "routeName": "Thiruvallur - Avadi Express",
+            "origin": "Thiruvallur Village",
+            "destination": "Avadi Terminal",
+            "distanceKm": 24.5,
+            "avgDurationMins": 52,
+            "recordedDemand": 2,
+            "predictedDemand": 2,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-102",
+            "routeName": "Vel Tech - Pattabiram Connector",
+            "origin": "Vel Tech Junction",
+            "destination": "Pattabiram",
+            "distanceKm": 11.2,
+            "avgDurationMins": 28,
+            "recordedDemand": 17,
+            "predictedDemand": 20,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-103",
+            "routeName": "Morai - Ambattur Industrial Link",
+            "origin": "Morai Rural Colony",
+            "destination": "Ambattur Estate",
+            "distanceKm": 14.8,
+            "avgDurationMins": 36,
+            "recordedDemand": 3,
+            "predictedDemand": 3,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-104",
+            "routeName": "Thandurai - Poonamallee Shuttle",
+            "origin": "Thandurai Village",
+            "destination": "Poonamallee",
+            "distanceKm": 16.4,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-105",
+            "routeName": "Vellanur - Red Hills Line",
+            "origin": "Vellanur Village",
+            "destination": "Red Hills Junction",
+            "distanceKm": 8.9,
+            "avgDurationMins": 22,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          },
+          {
+            "routeId": "R-106",
+            "routeName": "Khambhampadu - Tiruvuru Feeder",
+            "origin": "Khambhampadu",
+            "destination": "Tiruvuru",
+            "distanceKm": 25.4,
+            "avgDurationMins": 48,
+            "recordedDemand": 10,
+            "predictedDemand": 12,
+            "recommendedTrips": 1
+          },
+          {
+            "routeId": "R-107",
+            "routeName": "Village A - Town B Rural Corridor",
+            "origin": "Village A",
+            "destination": "Town B",
+            "distanceKm": 18,
+            "avgDurationMins": 35,
+            "recordedDemand": 45,
+            "predictedDemand": 52,
+            "recommendedTrips": 2
+          },
+          {
+            "routeId": "R-108",
+            "routeName": "Village C - Town D Rural Valley Line",
+            "origin": "Village C",
+            "destination": "Town D",
+            "distanceKm": 22,
+            "avgDurationMins": 42,
+            "recordedDemand": 0,
+            "predictedDemand": 0,
+            "recommendedTrips": 0
+          }
+        ],
+        "parameters": {
+          "operatingHours": "06:30 - 20:30",
+          "turnaroundMins": 15,
+          "maxTripsPerBus": 4
+        }
+      },
+      "trips": [
+        {
+          "tripId": "TRIP-OPT-9667-1",
+          "routeId": "R-107",
+          "routeName": "Village A - Town B Rural Corridor",
+          "origin": "Village A",
+          "destination": "Town B",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "07:00",
+          "arrivalTime": "07:35",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 26,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9668-2",
+          "routeId": "R-107",
+          "routeName": "Village A - Town B Rural Corridor",
+          "origin": "Village A",
+          "destination": "Town B",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "17:15",
+          "arrivalTime": "17:50",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 26,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 52 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9668-3",
+          "routeId": "R-102",
+          "routeName": "Vel Tech - Pattabiram Connector",
+          "origin": "Vel Tech Junction",
+          "destination": "Pattabiram",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "08:00",
+          "arrivalTime": "08:28",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 20,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 20 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9668-4",
+          "routeId": "R-106",
+          "routeName": "Khambhampadu - Tiruvuru Feeder",
+          "origin": "Khambhampadu",
+          "destination": "Tiruvuru",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "08:30",
+          "arrivalTime": "09:18",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 12,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 12 passengers with Eicher Skyline Pro (36 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9668-5",
+          "routeId": "R-103",
+          "routeName": "Morai - Ambattur Industrial Link",
+          "origin": "Morai Rural Colony",
+          "destination": "Ambattur Estate",
+          "busId": "TN-01-SR-104",
+          "busRegNo": "TN-20-CZ-4404",
+          "busModel": "Tata Marcopolo EV",
+          "departureTime": "09:00",
+          "arrivalTime": "09:36",
+          "allocatedCapacity": 32,
+          "expectedPassengers": 3,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 3 passengers with Tata Marcopolo EV (32 seats)."
+        },
+        {
+          "tripId": "TRIP-OPT-9668-6",
+          "routeId": "R-101",
+          "routeName": "Thiruvallur - Avadi Express",
+          "origin": "Thiruvallur Village",
+          "destination": "Avadi Terminal",
+          "busId": "TN-01-SR-103",
+          "busRegNo": "TN-20-CZ-4403",
+          "busModel": "Eicher Skyline Pro",
+          "departureTime": "07:00",
+          "arrivalTime": "07:52",
+          "allocatedCapacity": 36,
+          "expectedPassengers": 2,
+          "turnaroundBufferMins": 15,
+          "status": "Feasible - Zero Conflict",
+          "reason": "Allocated to serve 2 passengers with Eicher Skyline Pro (36 seats)."
+        }
+      ],
+      "diff": {
+        "addedTrips": [],
+        "removedTrips": [],
+        "modifiedTrips": [],
+        "unmetDemand": [],
+        "changeReasons": [
+          "Synthesized initial dynamic master schedule across 6 trips prioritizing active rural demand corridors."
+        ]
+      },
+      "metrics": {
+        "totalTrips": 6,
+        "servedDemand": 89,
+        "unmetDemand": 0,
+        "demandSatisfactionPct": 100,
+        "fleetUtilizationPct": 40,
+        "totalOperatingDistanceKm": 111.89999999999999
+      },
+      "optimizationLog": [
+        "Evaluated 8 eligible corridors using 9 passenger check-in records.",
+        "Available fleet: 5 active road-worthy buses with combined capacity of 217 seats.",
+        "Corridor Village A - Town B Rural Corridor: Successfully allocated 2 trip(s) for 52 passengers.",
+        "Corridor Vel Tech - Pattabiram Connector: Successfully allocated 1 trip(s) for 20 passengers.",
+        "Corridor Khambhampadu - Tiruvuru Feeder: Successfully allocated 1 trip(s) for 12 passengers.",
+        "Corridor Morai - Ambattur Industrial Link: Successfully allocated 1 trip(s) for 3 passengers.",
+        "Corridor Thiruvallur - Avadi Express: Successfully allocated 1 trip(s) for 2 passengers.",
+        "Corridor Thandurai - Poonamallee Shuttle: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Vellanur - Red Hills Line: Zero recorded passenger demand; trip allocation deferred.",
+        "Corridor Village C - Town D Rural Valley Line: Zero recorded passenger demand; trip allocation deferred."
+      ]
+    }
+  ]
+}

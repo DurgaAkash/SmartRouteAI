@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Leaflet Container and Pin Fixes */
+.leaflet-container {
+  font-family: inherit;
+  background-color: #0b132b;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #0f172a;
+  color: #f8fafc;
+  border-radius: 0.75rem;
+  border: 1px solid #334155;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.leaflet-popup-tip {
+  background-color: #0f172a;
+}
+
+/* Custom dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

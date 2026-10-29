@@ -1,0 +1,8 @@
+{
+  "name": "SmartRoute AI - Rural Transportation Optimization",
+  "description": "AI-based smart rural transportation planning, dynamic route search, bus tracking, demand prediction, and schedule optimization system.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,8 @@
+route_id,route_name,origin,destination,distance_km,avg_travel_time_mins,frequency_mins,fare_inr,road_condition,operating_type
+R-101,Thiruvallur - Avadi Express,Thiruvallur Village,Avadi Terminal,24.5,52,30,25,Good,Rural Feed
+R-102,Vel Tech - Pattabiram Connector,Vel Tech Junction,Pattabiram,11.2,28,20,15,Moderate,Student & Commuter
+R-103,Morai - Ambattur Industrial Link,Morai Rural Colony,Ambattur Estate,14.8,36,25,20,Good,Workforce Link
+R-104,Thandurai - Poonamallee Shuttle,Thandurai Village,Poonamallee,16.4,42,45,22,Moderate,Rural General
+R-105,Vellanur - Red Hills Line,Vellanur Village,Red Hills Junction,8.9,22,40,12,Paved,Rural Feed
+R-106,Mandya - Maddur Rural Route,Mandya Grama Panchayat,Maddur Rural Stand,21.0,45,35,22,Good,Inter-village
+R-107,Baramati - Daund Rural Link,Baramati Gramin Depot,Daund Rural Chowk,38.5,80,60,45,Fair,Sub-district

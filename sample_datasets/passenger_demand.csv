@@ -1,0 +1,29 @@
+record_id,travel_date,hour,day_of_week,origin,destination,route_id,passenger_count,is_market_day,weather,status
+REC-1001,2026-10-20,07,Tuesday,Thiruvallur Village,Avadi Terminal,R-101,48,1,Clear,Observed
+REC-1002,2026-10-20,08,Tuesday,Vel Tech Junction,Pattabiram,R-102,62,1,Clear,Observed
+REC-1003,2026-10-20,09,Tuesday,Morai Rural Colony,Ambattur Estate,R-103,55,1,Clear,Observed
+REC-1004,2026-10-20,10,Tuesday,Kollumedu Panchayat,Avadi Market,R-101,31,0,Sunny,Observed
+REC-1005,2026-10-20,11,Tuesday,Thandurai Village,Poonamallee,R-104,24,0,Sunny,Observed
+REC-1006,2026-10-20,12,Tuesday,Vellanur Village,Red Hills Junction,R-105,19,0,Sunny,Observed
+REC-1007,2026-10-20,16,Tuesday,Avadi Terminal,Thiruvallur Village,R-101,58,1,Clear,Observed
+REC-1008,2026-10-20,17,Tuesday,Pattabiram,Vel Tech Junction,R-102,74,1,Clear,Observed
+REC-1009,2026-10-20,18,Tuesday,Ambattur Estate,Morai Rural Colony,R-103,66,1,Clear,Observed
+REC-1010,2026-10-20,19,Tuesday,Avadi Market,Kollumedu Panchayat,R-101,38,0,Clear,Observed
+REC-1011,2026-10-21,07,Wednesday,Thiruvallur Village,Avadi Terminal,R-101,42,0,Rainy,Observed
+REC-1012,2026-10-21,08,Wednesday,Vel Tech Junction,Pattabiram,R-102,59,0,Rainy,Observed
+REC-1013,2026-10-21,09,Wednesday,Morai Rural Colony,Ambattur Estate,R-103,49,0,Rainy,Observed
+REC-1014,2026-10-21,17,Wednesday,Pattabiram,Vel Tech Junction,R-102,68,0,Cloudy,Observed
+REC-1015,2026-10-21,18,Wednesday,Ambattur Estate,Morai Rural Colony,R-103,63,0,Cloudy,Observed
+REC-1016,2026-10-22,07,Thursday,Thiruvallur Village,Avadi Terminal,R-101,45,0,Clear,Observed
+REC-1017,2026-10-22,08,Thursday,Vel Tech Junction,Pattabiram,R-102,64,0,Clear,Observed
+REC-1018,2026-10-22,17,Thursday,Pattabiram,Vel Tech Junction,R-102,71,0,Clear,Observed
+REC-1019,2026-10-23,07,Friday,Thiruvallur Village,Avadi Terminal,R-101,52,1,Clear,Observed
+REC-1020,2026-10-23,08,Friday,Vel Tech Junction,Pattabiram,R-102,78,1,Clear,Observed
+REC-1021,2026-10-23,17,Friday,Pattabiram,Vel Tech Junction,R-102,82,1,Clear,Observed
+REC-1022,2026-10-24,08,Saturday,Kollumedu Panchayat,Avadi Market,R-101,54,1,Sunny,Observed
+REC-1023,2026-10-24,09,Saturday,Thandurai Village,Poonamallee,R-104,46,1,Sunny,Observed
+REC-1024,2026-10-25,09,Sunday,Vellanur Village,Red Hills Junction,R-105,22,0,Sunny,Observed
+REC-1025,2026-10-26,07,Monday,Thiruvallur Village,Avadi Terminal,R-101,50,0,Clear,Observed
+REC-1026,2026-10-26,08,Monday,Vel Tech Junction,Pattabiram,R-102,70,0,Clear,Observed
+REC-1027,2026-10-27,08,Tuesday,Vel Tech Junction,Pattabiram,R-102,65,0,Clear,Observed
+REC-1028,2026-10-27,17,Tuesday,Pattabiram,Vel Tech Junction,R-102,73,0,Clear,Observed

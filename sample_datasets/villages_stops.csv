@@ -1,0 +1,15 @@
+stop_id,stop_name,locality,district,state,latitude,longitude,is_rural,has_shelter,daily_footfall
+STP-01,Vel Tech Junction,Avadi Outer,Thiruvallur,Tamil Nadu,13.1834,80.1037,1,1,1450
+STP-02,Morai Village Center,Ambattur Taluk,Thiruvallur,Tamil Nadu,13.1972,80.1245,1,1,850
+STP-03,Kollumedu Rural Colony,Poonamallee Taluk,Thiruvallur,Tamil Nadu,13.1612,80.0891,1,0,520
+STP-04,Thandurai Gramam,Pattabiram Rural,Thiruvallur,Tamil Nadu,13.1328,80.0634,1,1,640
+STP-05,Pattabiram Railway Stop,Pattabiram,Thiruvallur,Tamil Nadu,13.1215,80.0621,0,1,3200
+STP-06,Avadi Bus Terminal,Avadi,Thiruvallur,Tamil Nadu,13.1185,80.1018,0,1,8900
+STP-07,Vellanur Village,Ambattur Rural,Thiruvallur,Tamil Nadu,13.1912,80.1582,1,0,410
+STP-08,Poonamallee Bypass,Poonamallee,Thiruvallur,Tamil Nadu,13.0489,80.0844,0,1,5400
+STP-09,Thiruvallur Collectorate,Thiruvallur,Thiruvallur,Tamil Nadu,13.1438,79.9079,0,1,4100
+STP-10,Red Hills Bus Stand,Red Hills,Tiruvallur,Tamil Nadu,13.1983,80.1984,0,1,6700
+STP-11,Mandya Grama Panchayat,Mandya,Mandya,Karnataka,12.5222,76.8974,1,1,1200
+STP-12,Maddur Rural Stand,Maddur,Mandya,Karnataka,12.5843,77.0456,1,1,980
+STP-13,Baramati Gramin Depot,Baramati,Pune,Maharashtra,18.1517,74.5772,1,1,1650
+STP-14,Daund Rural Chowk,Daund,Pune,Maharashtra,18.4632,74.5821,1,1,1100

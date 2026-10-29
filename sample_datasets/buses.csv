@@ -1,0 +1,9 @@
+bus_id,registration_no,model,capacity,assigned_route_id,depot,status,fuel_type,driver_name,conductor_name,current_lat,current_lng,last_speed_kmh,is_simulated_gps
+TN-01-SR-101,TN-20-CZ-4401,Tata Starbus 40-Seater,42,R-101,Avadi Regional Depot,Active,Diesel,R. Murugan,S. Kumar,13.1310,80.0820,38,true
+TN-01-SR-102,TN-20-CZ-4402,Ashok Leyland Falcon,52,R-102,Pattabiram Depot,Active,CNG,K. Selvam,M. Ramesh,13.1620,80.0910,42,true
+TN-01-SR-103,TN-20-CZ-4403,Eicher Skyline Pro,36,R-103,Ambattur Depot,Active,Diesel,V. Anand,P. Karthik,13.1780,80.1410,29,true
+TN-01-SR-104,TN-20-CZ-4404,Tata Marcopolo 32-Seater,32,R-104,Poonamallee Depot,Active,Electric,A. Joseph,T. Vignesh,13.0910,80.0710,34,true
+TN-01-SR-105,TN-20-CZ-4405,Ashok Leyland Viking,55,R-105,Red Hills Depot,Active,Diesel,G. Balaji,K. Dinesh,13.1890,80.1740,40,true
+TN-01-SR-106,TN-20-CZ-4406,Tata Starbus Mini 25-Seater,26,R-102,Pattabiram Depot,Standby,Diesel,S. Prakash,N. Siva,13.1215,80.0621,0,true
+KA-04-SR-201,KA-11-FA-1201,KSRTC Sarige 50-Seater,50,R-106,Mandya Central Depot,Active,Diesel,H. Venkatesh,C. Ravi,12.5410,76.9520,45,true
+MH-12-SR-301,MH-42-AA-9812,MSRTC Hirkani 45-Seater,45,R-107,Baramati Depot,Active,Diesel,P. Shinde,A. Jadhav,18.2910,74.5790,51,true
